@@ -1093,10 +1093,9 @@ function Index() {
             <div style={{ padding: "10px" }}></div>
           </div>
         </div>
-        <hr />
         {/* <!-- ---services-------> */}
         <div style={{ padding: "5px" }}></div>
-        <div class="border">
+        {/* <div class="border">
           <div class="container1">
             <div class="container">
               <div class="row">
@@ -1351,7 +1350,6 @@ function Index() {
                           <a href="/Visa">
                             <b style={{ fontSize: "15px" }}>Visa</b>
                           </a>
-                          {/* <!-- <p style="color:green;">Drive Easy<br/> Anywhere</p> --> */}
                         </center>
                       </div>
                       <div></div>
@@ -1361,7 +1359,7 @@ function Index() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div style={{ padding: "20px" }}></div>
         {/* <!-- follow us --> */}
         {/* <div className="container">
