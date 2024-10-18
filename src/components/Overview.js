@@ -38,76 +38,6 @@ function Overview() {
               <a href="/csr">CSR</a>
             </li>
           </ul>
-          {/* <!--user visiable in media query--> */}
-          {/* <div className="offcanvas offcanvas-start" id="demo1">
-            <div className="offcanvas-header">
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="offcanvas"
-              ></button>
-            </div>
-            <div className="offcanvas-body">
-              <div className="row">
-                <div className="col-lg-6 ">
-                  <h4>
-                    <b>Sign-in</b>
-                    <img
-                      src="./images/fafa icon/usericon.png"
-                      alt="userlogin image"
-                      style={{ width: "40px", float: "right" }}
-                    />
-                  </h4>
-                </div>
-              </div>
-              <p>
-                <i className="fa fa-language"></i> English
-              </p>
-              <p>
-                <i className="fa fa-user"></i> Customer Service
-              </p>
-              <p>
-                <i className="fa fa-line-chart"></i> List Your Busimess
-              </p>
-              <p>
-                <i className="fa fa-bullhorn"></i> Advertise
-              </p>
-              <p>
-                <i className="fa fa-vcard-o"></i> My Transactions
-              </p>
-              <p>
-                <i className="fa fa-users"></i> Manage Quotes
-              </p>
-              <p>
-                <i className="fa fa-laptop"></i> We are hiring
-              </p>
-              <p>
-                <i className="fa fa-cog"></i> Settings
-              </p>
-              <p>
-                <i className="fa fa-universal-access"></i> Privacy Policy
-              </p>
-              <p>
-                <i className="fa fa-slideshare"></i> Investor Relations
-              </p>
-              <p>
-                <i className="fa fa-plus-square"></i> What's New
-              </p>
-              <p>
-                <i className="fa fa-paperclip"></i> Others
-              </p>
-              <p>
-                <i className="fa fa-user-times"></i> Sign Out
-              </p>
-            </div>
-          </div>
-          <li data-bs-toggle="offcanvas" data-bs-target="#demo1" className="h">
-            <img
-              src="./images/fafa icon/usericon.png"
-              alt="userlogin image"
-              style={{ width: "25px" }}
-            />
-          </li> */}
         </nav>
         <hr />
         <div style={{ padding: "2px" }}></div>
@@ -152,7 +82,7 @@ function Overview() {
                 PSK Technologies Pvt. Ltd.) it is Nagpur Local Businesses And
                 Services Search engine (नागपुर का अपना लोकल सर्च इंजन) it
                 provides local search related services to users and it helps to
-                connect business to business within Nagpu r. through website &
+                connect business to business within Nagpur. through website &
                 mobile App (Android Web View). PSK Technologies Motive is to
                 give fast services to connect users to businesses and Business
                 to Business

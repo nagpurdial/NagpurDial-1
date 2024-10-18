@@ -53,13 +53,10 @@ const popularSearches = [
   { text: "Rent Services", url: "/rentservice" },
   { text: "BanquitHalls for wedding", url: "/banquithall" },
   { text: "Astrologies", url: "/astrologies" },
-  {text:  "Auditors", url:"/auditors"},
-  {text: "Electronic Repaires Shops", url: "/electrician"},
-  {text: "Home Furniture", url: "/homefurniture"},
-  {text: "Home Decor", url: "/homedecover"},
-  
-
-
+  { text: "Auditors", url: "/auditors" },
+  { text: "Electronic Repaires Shops", url: "/electrician" },
+  { text: "Home Furniture", url: "/homefurniture" },
+  { text: "Home Decor", url: "/homedecover" },
 ];
 
 function PopularSearch() {

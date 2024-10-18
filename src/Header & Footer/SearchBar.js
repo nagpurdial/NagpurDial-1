@@ -7,7 +7,7 @@ const SearchBar = () => {
 
   const pages = [
     { id: 1, title: "Account", link: "/account" },
-    { id: 2, title: "Advertise", link: "/advertise" },
+    // { id: 2, title: "Advertise", link: "/advertise" },
     { id: 3, title: "ACrepaire", link: "/acrepaire" },
     { id: 4, title: "ACRepairShops", link: "/acrepairshops" },
     { id: 5, title: "astrologies", link: "/astrologies" },
