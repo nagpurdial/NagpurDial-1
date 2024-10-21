@@ -121,25 +121,25 @@ function Video() {
           <div className="container mt-3">
             <ul className="nav nav-tabs">
               <li className="nav-item">
-                <Link className="nav-link" to="corporatemedia.html">
+                <Link className="nav-link" to="/corporatemedia">
                   Media(all)
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="press.html">
+                <Link className="nav-link" to="/press">
                   Press
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to="video.html">
+                <Link className="nav-link active" to="/video">
                   Videos
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link hide1" to="report.html">
+                <Link className="nav-link hide1" to="/report">
                   Consumers Reports
                 </Link>
-                <Link className="nav-link hide" to="report.html">
+                <Link className="nav-link hide" to="/report">
                   Reports
                 </Link>
               </li>
@@ -158,7 +158,9 @@ function Video() {
                 ></iframe>
               </div>
               <div className="col-lg-4 media110 mx-3 p-2 m-2">
-                <b>More Videos</b>
+                <h5>
+                  <b>More Videos</b>
+                </h5>
                 <iframe
                   className="morevideo"
                   src="https://www.youtube.com/embed/Xn9HRJYas8s?si=kM-VyBqcvV21T915"
