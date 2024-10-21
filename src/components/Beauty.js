@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import PopularSearch from "./PopularSearch";
+import { Link } from 'react-router-dom';
 function Beauty() {
   return (
     <div className="container">
@@ -13,110 +14,110 @@ function Beauty() {
         <div className="container">
           <div className="row hh">
             <div className="col-lg-4 col-lg-41">
-              <a href="/beautyparlour" className="icons-img">
+              <Link to="/beautyparlour" className="icons-img">
                 <img
                   src="./images/fafa icon/by.png"
                   className="icons-img"
                   alt="by"
                 />{" "}
                 Beauty Parlours
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 col-lg-41">
-              <a href="/beautyparlour" className="icons-img">
+              <Link to="/beautyparlour" className="icons-img">
                 <img
                   src="./images/fafa icon/beauty services.png"
                   className="icons-img"
                   alt="beauty services"
                 />{" "}
                 Beauty Services
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 col-lg-41">
-              <a href="/beautyparlour" className="icons-img hide1">
+              <Link to="/beautyparlour" className="icons-img hide1">
                 <img
                   src="./images/fafa icon/bridal makeup.png"
                   className="icons-img"
                   alt="bridal makeup"
                 />{" "}
                 Bridal Makeup
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row hh">
             <div className="col-lg-4 col-lg-41">
-              <a href="/beautyparlour" className="icons-img hide1">
+              <Link to="/beautyparlour" className="icons-img hide1">
                 <img
                   src="./images/fafa icon/slen.png"
                   className="icons-img"
                   alt="slen"
                 />{" "}
                 Salons
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 col-lg-41">
-              <a href="/beautyparlour" className="icons-img hide1">
+              <Link to="/beautyparlour" className="icons-img hide1">
                 <img
                   src="./images/fafa icon/bridal makeup.png"
                   className="icons-img"
                   alt="bridal makeup"
                 />{" "}
                 Spas
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 col-lg-41">
-              <a href="/beautyparlour" className="icons-img hide1">
+              <Link to="/beautyparlour" className="icons-img hide1">
                 <img
                   src="./images/fafa icon/WeddingPlanning.png"
                   className="icons-img"
                   alt="Wedding Planning"
                 />{" "}
                 Bridegroom Makeup
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row ">
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/beautyparlour" className="icons-img">
+              <Link to="/beautyparlour" className="icons-img">
                 <img
                   src="./images/fafa icon/bridal makeup.png"
                   className="icons-img"
                   alt="bridal makeup"
                 />{" "}
                 Bridal Makeup
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/beautyparlour" className="icons-img">
+              <Link to="/beautyparlour" className="icons-img">
                 <img
                   src="./images/fafa icon/WeddingPlanning.png"
                   className="icons-img"
                   alt="weddingplanning"
                 />{" "}
                 Bridegroom
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row ">
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/beautyparlour" className="icons-img">
+              <Link to="/beautyparlour" className="icons-img">
                 <img
                   src="./images/fafa icon/slen.png"
                   className="icons-img"
                   alt="slen"
                 />{" "}
                 Salons
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/beautyparlour" className="icons-img">
+              <Link to="/beautyparlour" className="icons-img">
                 <img
                   src="./images/fafa icon/bridal makeup.png"
                   className="icons-img"
                   alt="bridal makeup"
                 />{" "}
                 Spas
-              </a>
+              </Link>
             </div>
           </div>
         </div>

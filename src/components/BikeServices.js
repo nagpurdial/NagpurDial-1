@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
-
+import { Link } from 'react-router-dom';
 // Sample contacts
 const whatsappContacts = [
   { id: 1, phone: "918600540777", text: "Viraj Auto Services" },
@@ -81,9 +81,9 @@ function BikeServices() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly1"
+                    to="#carouselExampleSlidesOnly1"
                     role="button"
                     data-slide="prev"
                   >
@@ -92,10 +92,10 @@ function BikeServices() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly1"
+                    to="#carouselExampleSlidesOnly1"
                     role="button"
                     data-slide="next"
                   >
@@ -104,7 +104,7 @@ function BikeServices() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only">Next</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -178,9 +178,9 @@ function BikeServices() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly2"
+                    to="#carouselExampleSlidesOnly2"
                     role="button"
                     data-slide="prev"
                   >
@@ -189,10 +189,10 @@ function BikeServices() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly2"
+                    to="#carouselExampleSlidesOnly2"
                     role="button"
                     data-slide="next"
                   >
@@ -201,7 +201,7 @@ function BikeServices() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only">Next</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

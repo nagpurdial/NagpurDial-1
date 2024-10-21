@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
-
+import { Link } from 'react-router-dom';
 // Sample contacts
 const whatsappContacts = [
   { id: 1, phone: "918237339021", text: "Prime Exotica Salon" },
@@ -87,7 +87,7 @@ const BeautyParlour = () => {
         {/* Beauty Parlour Listings */}
         {parlourData.map((parlour, index) => (
           <div className="beauty" key={index}>
-            <div className="row">
+            <div className="row mx-3">
               <div className="col-lg-4">
                 <div className="container">
                   <div
@@ -106,24 +106,24 @@ const BeautyParlour = () => {
                         </div>
                       ))}
                     </div>
-                    <a
+                    <Link
                       className="carousel-control-prev"
-                      href={`#carouselExampleSlidesOnly${index}`}
+                      to={`#carouselExampleSlidesOnly${index}`}
                       role="button"
                       data-slide="prev"
                     >
                       <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span className="sr-only text-danger">Previous</span>
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="carousel-control-next"
-                      href={`#carouselExampleSlidesOnly${index}`}
+                      to={`#carouselExampleSlidesOnly${index}`}
                       role="button"
                       data-slide="next"
                     >
                       <span className="carousel-control-next-icon" aria-hidden="true"></span>
                       <span className="sr-only text-danger">Next</span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

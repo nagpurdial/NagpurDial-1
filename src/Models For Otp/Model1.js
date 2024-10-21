@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Otp1 from "../Otp1"; // Import your OTP1 component
+import { Link } from "react-router-dom";
 
 const Modal = () => {
   const modalRef = useRef(null);
@@ -21,18 +22,16 @@ const Modal = () => {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title">NagpurDial</h5>
-            <a href="/" style={{ textDecoration: "none" }}>
+            <Link to="/" style={{ textDecoration: "none" }}>
               <button
                 type="button"
                 className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
-            </a>
+            </Link>
           </div>
-          
           <div className="modal-body">
-
             <Otp1 />
           </div>
           <div className="modal-footer"></div>

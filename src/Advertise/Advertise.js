@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import PropTypes from "prop-types";
@@ -85,11 +86,11 @@ const Advertise = (props) => {
           <br />
           <div className="row mx-2">
             <div className="col-auto">
-              <a href="/" style={{ textDecoration: "none" }}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <button type="submit" className="btn btn-primary mb-2">
                   Save
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </form>

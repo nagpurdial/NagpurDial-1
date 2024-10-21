@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import Businesschat from "../Businesschat/Businesschatmodel"; 
+import Businesschat from "../Businesschat/Businesschatmodel";
 import Otp2 from "../Otp2";
 import "../App.css";
+import { Link } from "react-router-dom";
 const whatsappContacts = [
   { id: 1, phone: "919975288300", text1: "Nagpurdial" },
 ];
@@ -74,9 +75,9 @@ function Grocery() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     class="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="prev"
                   >
@@ -85,10 +86,10 @@ function Grocery() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     class="carousel-control-next"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="next"
                   >
@@ -97,7 +98,7 @@ function Grocery() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -154,60 +155,60 @@ function Grocery() {
 
         <div style={{ padding: "5px" }}></div>
         {/* Modal for OTP and Contact1 */}
-             {showOTPModal && (
-        <div
-          className="modal fade show"
-          tabIndex="-1"
-          style={{ display: "block" }}
-        >
-          <div className="modal-dialog modal-dialog-centered">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title">OTP Verification</h5>
-                <button
-                  type="button"
-                  className="btn-close"
-                  aria-label="Close"
-                  onClick={handleCloseModal}
-                ></button>
-              </div>
-              <div className="modal-body">
-                <Otp2
-                  onClose={handleCloseModal}
-                  onOtpVerified={handleOtpVerified}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-      {showContactForm && (
-        <div
-          className="modal fade show"
-          tabIndex="-1"
-          style={{ display: "block" }}
-        >
-          <div className="modal-dialog modal-dialog-centered">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title">Contact Form</h5>
-                <button
-                  type="button"
-                  className="btn-close"
-                  aria-label="Close"
-                  onClick={handleCloseModal}
-                ></button>
-              </div>
-              <div className="modal-body">
-                <Businesschat
-                  contact={selectedContact}
-                  onClose={handleCloseModal}
-                />
+        {showOTPModal && (
+          <div
+            className="modal fade show"
+            tabIndex="-1"
+            style={{ display: "block" }}
+          >
+            <div className="modal-dialog modal-dialog-centered">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title">OTP Verification</h5>
+                  <button
+                    type="button"
+                    className="btn-close"
+                    aria-label="Close"
+                    onClick={handleCloseModal}
+                  ></button>
+                </div>
+                <div className="modal-body">
+                  <Otp2
+                    onClose={handleCloseModal}
+                    onOtpVerified={handleOtpVerified}
+                  />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      )}
+        )}
+        {showContactForm && (
+          <div
+            className="modal fade show"
+            tabIndex="-1"
+            style={{ display: "block" }}
+          >
+            <div className="modal-dialog modal-dialog-centered">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title">Contact Form</h5>
+                  <button
+                    type="button"
+                    className="btn-close"
+                    aria-label="Close"
+                    onClick={handleCloseModal}
+                  ></button>
+                </div>
+                <div className="modal-body">
+                  <Businesschat
+                    contact={selectedContact}
+                    onClose={handleCloseModal}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
         <hr />
       </div>
     </div>

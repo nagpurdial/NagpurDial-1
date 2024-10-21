@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-
+import { Link } from 'react-router-dom';
 function CorporateMedia() {
   return (
     <div className="container">
@@ -17,27 +17,27 @@ function CorporateMedia() {
           <div className="container mt-3">
             <ul className="nav nav-tabs">
               <li className="nav-item">
-                <a className="nav-link active" href="/corporatemedia">
+                <Link className="nav-link active" to="/corporatemedia">
                   Media(all)
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/press">
+                <Link className="nav-link" to="/press">
                   Press
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/video">
+                <Link className="nav-link" to="/video">
                   Videos
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link hh" href="/report">
+                <Link className="nav-link hh" to="/report">
                   Consumers Reports
-                </a>
-                <a className="nav-link h" href="/report">
+                </Link>
+                <Link className="nav-link h" to="/report">
                   Reports
-                </a>
+                </Link>
               </li>
             </ul>
 

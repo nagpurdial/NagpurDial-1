@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import PopularSearch from "./PopularSearch";
 function Index() {
   return (
@@ -8,7 +9,7 @@ function Index() {
         {/* <!-------------------20 product--------------------> */}
         <div className="container1 ">
           <div>
-            <a href="/restaurant">
+            <Link to="/restaurant">
               <div className="box">
                 <center>
                   <img
@@ -19,14 +20,14 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/restaurant">
+                <Link to="/restaurant">
                   <b style={{ fontSize: "15px" }}>Restaurants</b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/hotelclient">
+            <Link to="/hotelclient">
               <div className="box">
                 <center>
                   <img
@@ -37,14 +38,14 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/hotelclient">
+                <Link to="/hotelclient">
                   <b style={{ fontSize: "15px" }}>Hotels</b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/beauty">
+            <Link to="/beauty">
               <div className="box">
                 <center>
                   <img
@@ -55,16 +56,16 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/beauty">
+                <Link to="/beauty">
                   <b style={{ fontSize: "15px" }}>
                     Beauty <br /> Spa
                   </b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/homedecover">
+            <Link to="/homedecover">
               <div className="box">
                 <center>
                   <img
@@ -75,16 +76,16 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/homedecover">
+                <Link to="/homedecover">
                   <b style={{ fontSize: "15px" }}>
                     Home <br /> Decor
                   </b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/Wedding">
+            <Link to="/Wedding">
               <div className="box">
                 <center>
                   <img
@@ -95,18 +96,18 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="Wedding">
+                <Link to="Wedding">
                   <b style={{ fontSize: "15px" }}>
                     Wedding
                     <br />
                     Planning
                   </b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/education">
+            <Link to="/education">
               <div className="box">
                 <center>
                   <img
@@ -117,14 +118,14 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/education">
+                <Link to="/education">
                   <b style={{ fontSize: "15px" }}>Education</b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/rentandhire">
+            <Link to="/rentandhire">
               <div className="box">
                 <center>
                   <img
@@ -135,14 +136,14 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/rentandhire">
+                <Link to="/rentandhire">
                   <b style={{ fontSize: "15px" }}>Rent & Hire</b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/hospital">
+            <Link to="/hospital">
               <div className="box">
                 <center>
                   <img
@@ -153,14 +154,14 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/hospital">
+                <Link to="/hospital">
                   <b style={{ fontSize: "15px" }}>Hospitals</b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/contractors">
+            <Link to="/contractors">
               {" "}
               <div className="box">
                 <center>
@@ -172,15 +173,15 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/contractors">
+                <Link to="/contractors">
                   <b style={{ fontSize: "15px" }}>Contractors</b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
 
           <div className="menu">
-            <a href="/petshops">
+            <Link to="/petshops">
               {" "}
               <div className="box menu">
                 <center>
@@ -192,16 +193,16 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/petshops">
+                <Link to="/petshops">
                   <b style={{ fontSize: "15px" }}>Pet Shops</b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="container1">
           <div>
-            <a href="/pghotels">
+            <Link to="/pghotels">
               <div className="box">
                 <center>
                   <img
@@ -212,14 +213,14 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/pghotels">
+                <Link to="/pghotels">
                   <b style={{ fontSize: "15px" }}>PG/Hostels</b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/estaeagents">
+            <Link to="/estaeagents">
               {" "}
               <div className="box">
                 <center>
@@ -231,17 +232,17 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/estaeagents">
+                <Link to="/estaeagents">
                   <b style={{ fontSize: "15px" }}>
                     Estate
                     <br /> Agent
                   </b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/dentist">
+            <Link to="/dentist">
               {" "}
               <div className="box">
                 <center>
@@ -253,14 +254,14 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/dentist">
+                <Link to="/dentist">
                   <b style={{ fontSize: "15px" }}>Dentists </b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/gym">
+            <Link to="/gym">
               {" "}
               <div className="box">
                 <center>
@@ -272,14 +273,14 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/gym">
+                <Link to="/gym">
                   <b style={{ fontSize: "15px" }}>Gym</b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/consultants">
+            <Link to="/consultants">
               <div className="box">
                 <center>
                   <img
@@ -290,14 +291,14 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/consultants">
+                <Link to="/consultants">
                   <b style={{ fontSize: "15px" }}>Consultants</b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/eventorganizers">
+            <Link to="/eventorganizers">
               <div className="box">
                 <center>
                   <img
@@ -308,18 +309,18 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/eventorganizers">
+                <Link to="/eventorganizers">
                   <b style={{ fontSize: "15px" }}>
                     Event
                     <br />
                     Organisers
                   </b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/drivingschool">
+            <Link to="/drivingschool">
               <div className="box">
                 <center>
                   <img
@@ -330,17 +331,17 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/drivingschool">
+                <Link to="/drivingschool">
                   <b style={{ fontSize: "15px" }}>
                     Driving <br />
                     Schools
                   </b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/packers&movers">
+            <Link to="/packers&movers">
               {" "}
               <div className="box">
                 <center>
@@ -352,17 +353,17 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/packers&movers">
+                <Link to="/packers&movers">
                   <b style={{ fontSize: "15px" }}>
                     Packers &<br />
                     Movers
                   </b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/couriers">
+            <Link to="/couriers">
               <div className="box">
                 <center>
                   <img
@@ -373,15 +374,15 @@ function Index() {
                 </center>
               </div>
               <center>
-                <a href="/couriers">
+                <Link to="/couriers">
                   <b style={{ fontSize: "15px" }}>
                     Courier
                     <br />
                     Service
                   </b>
-                </a>
+                </Link>
               </center>
-            </a>
+            </Link>
           </div>
           <div>
             {/* <!-- Offcanvas container --> */}
@@ -405,449 +406,449 @@ function Index() {
                 <div className="row">
                   {/* <!-- Category Links --> */}
                   <div className="col-lg-2">
-                    <a href="/ac-repair">
+                    <Link to="/ac-repair">
                       <img
                         src="./images/fafa icon/ac.png"
                         width="20px"
                         alt="ac"
                       />{" "}
                       AC Services
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/software">
+                    <Link to="/software">
                       <img
                         src="./images/fafa icon/software.png"
                         width="20px"
                         alt="software"
                       />{" "}
                       Software
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/astrologies">
+                    <Link to="/astrologies">
                       <img
                         src="./images/fafa icon/Astrology.png"
                         width="20px"
                         alt="astrology"
                       />
                       Astrology
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/Training">
+                    <Link to="/Training">
                       <img
                         src="./images/fafa icon/training.png"
                         width="25px"
                         alt="training"
                       />
                       Training
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/carrepairs">
+                    <Link to="/carrepairs">
                       <img
                         src="./images/fafa icon/automobile.png"
                         width="20px"
                         alt="automobile"
                       />
                       Automobile
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/bills&recharge">
+                    <Link to="/bills&recharge">
                       <img
                         src="./images/fafa icon/insurance.png"
                         width="20px"
                         alt="insurance"
                       />
                       Insurance
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <br />
                 <div className="row">
                   <div className="col-lg-2">
-                    <a href="/Security">
+                    <Link to="/Security">
                       <img
                         src="./images/fafa icon/security.png"
                         width="20px"
                         alt="security"
                       />
                       Security
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/flight">
+                    <Link to="/flight">
                       <img
                         src="./images/fafa icon/flight.png"
                         width="20px"
                         alt="flight"
                       />
                       Travel
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/Shoping">
+                    <Link to="/Shoping">
                       <img
                         src="./images/fafa icon/shopping.png"
                         width="20px"
                         alt="shopping"
                       />
                       Shopping
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/eventorganizers">
+                    <Link to="/eventorganizers">
                       <img
                         src="./images/fafa icon/EventOrganisers.png"
                         width="20px"
                         alt="EventOrganisers"
                       />
                       Events
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/job">
+                    <Link to="/job">
                       <img
                         src="./images/fafa icon/job.png"
                         width="20px"
                         alt="job"
                       />
                       Jobs
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/incometax">
+                    <Link to="/incometax">
                       <img
                         src="./images/fafa icon/legal.png"
                         width="20px"
                         alt="legal"
                       />
                       Legal
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <br />
                 <div className="row">
                   <div className="col-lg-2">
-                    <a href="/hotelclient">
+                    <Link to="/hotelclient">
                       <img
                         src="./images/fafa icon/pg.png"
                         width="20px"
                         alt="pg"
                       />
                       Hotels
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/electrician">
+                    <Link to="/electrician">
                       <img
                         src="./images/fafa icon/electricity.png"
                         width="20px"
                         alt="electricity"
                       />
                       Electrical
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/jewellary">
+                    <Link to="/jewellary">
                       <img
                         src="./images/fafa icon/jewelary.png"
                         width="20px"
                         alt="jewelary"
                       />
                       Jewellary
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/movies">
+                    <Link to="/movies">
                       <img
                         src="./images/fafa icon/Entertainment.png"
                         width="20px"
                         alt="Entertainment"
                       />
                       Entertainment
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/internet">
+                    <Link to="/internet">
                       <img
                         src="./images/fafa icon/Internet.png"
                         width="20px"
                         alt="internet"
                       />
                       Internet
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/homedecover">
+                    <Link to="/homedecover">
                       <img
                         src="./images/fafa icon/HomeDecor.png"
                         width="20px"
                         alt="Home Decor"
                       />
                       Home Decore
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <br />
                 <div className="row">
                   <div className="col-lg-2">
-                    <a href="/beautyparlour">
+                    <Link to="/beautyparlour">
                       <img
                         src="./images/fafa icon/slen.png"
                         width="20px"
                         alt="beauty parlour"
                       />
                       Salon
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/manufacturing">
+                    <Link to="/manufacturing">
                       <img
                         src="./images/fafa icon/Manufacturing.png"
                         width="20px"
                         alt="manufacturing.png"
                       />
                       Manufacturing
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/account">
+                    <Link to="/account">
                       <img
                         src="./images/fafa icon/account.png"
                         width="20px"
                         alt="account"
                       />
                       Account
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/advertise">
+                    <Link to="/advertise">
                       <img
                         src="./images/fafa icon/Advertising.png"
                         width="20px"
                         alt="advertising"
                       />
                       Advertising
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/internet">
+                    <Link to="/internet">
                       <img
                         src="./images/fafa icon/Internet.png"
                         width="20px"
                         alt="internet"
                       />
                       Internet
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/Tatto">
+                    <Link to="/Tatto">
                       <img
                         src="./images/fafa icon/tattoo.png"
                         width="20px"
                         alt="tattoo"
                       />
                       tattoo
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <br />
                 <div className="row">
                   <div className="col-lg-2">
-                    <a href="Store">
+                    <Link to="Store">
                       <img
                         src="./images/fafa icon/store.png"
                         width="20px"
                         alt="store"
                       />
                       Store
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/photostudio">
+                    <Link to="/photostudio">
                       <img
                         src="./images/fafa icon/PhotoStudio.png"
                         width="20px"
                         alt="photostudio"
                       />
                       Photo Studio
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/gym">
+                    <Link to="/gym">
                       <img
                         src="./images/fafa icon/Gym.png"
                         width="20px"
                         alt="gym"
                       />
                       Fitness
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/engineers">
+                    <Link to="/engineers">
                       <img
                         src="./images/fafa icon/Engineers.png"
                         width="20px"
                         alt="engineers"
                       />
                       Engineers
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/restaurant">
+                    <Link to="/restaurant">
                       <img
                         src="./images/fafa icon/Restaurants.png"
                         width="20px"
                         alt="restaurant"
                       />
                       Restaurants
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/education">
+                    <Link to="/education">
                       <img
                         src="./images/fafa icon/Education.png"
                         width="20px"
                         alt="education"
                       />
                       Education
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <br />
                 <div className="row">
                   <div className="col-lg-2">
-                    <a href="/rentandhire">
+                    <Link to="/rentandhire">
                       <img
                         src="./images/fafa icon/Rent&Hire.png"
                         width="20px"
                         alt="rent and hire"
                       />
                       Rent & Hire
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/hospital">
+                    <Link to="/hospital">
                       <img
                         src="./images/fafa icon/hosp.png"
                         width="20px"
                         alt="hospital"
                       />
                       Hospitals
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/contractors">
+                    <Link to="/contractors">
                       <img
                         src="./images/fafa icon/constractor.png"
                         width="20px"
                         alt="contractor"
                       />
                       Contractors
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/petshops">
+                    <Link to="/petshops">
                       <img
                         src="./images/fafa icon/pethouse.png"
                         width="20px"
                         alt="pethouse"
                       />
                       Pet Shops
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/estaeagents">
+                    <Link to="/estaeagents">
                       <img
                         src="./images/fafa icon/EstateAgent.png"
                         width="20px"
                         alt="estageagent"
                       />
                       Estate Agent
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/dentist">
+                    <Link to="/dentist">
                       <img
                         src="./images/fafa icon/Dentists.png"
                         width="20px"
                         alt="dentist"
                       />
                       Dentists
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <br />
                 <div className="row">
                   <div className="col-lg-2">
-                    <a href="/gym">
+                    <Link to="/gym">
                       <img
                         src="./images/fafa icon/Gym.png"
                         width="20px"
                         alt="gym"
                       />
                       Gym
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/consultants">
+                    <Link to="/consultants">
                       <img
                         src="./images/fafa icon/Consultants.png"
                         width="20px"
                         alt="consultant"
                       />
                       Consultants
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/eventorganizers">
+                    <Link to="/eventorganizers">
                       <img
                         src="./images/fafa icon/EventOrganisers.png"
                         width="20px"
                         alt="eventorganisers"
                       />
                       Event Organisers
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/drivingschool">
+                    <Link to="/drivingschool">
                       <img
                         src="./images/fafa icon/DrivingSchools.png"
                         width="20px"
                         alt="drivingschools"
                       />
                       Driving Schools
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/packers&movers">
+                    <Link to="/packers&movers">
                       <img
                         src="./images/fafa icon/Packer&Movers.png"
                         width="20px"
                         alt="packer&movers"
                       />
                       Packers & Movers
-                    </a>
+                    </Link>
                   </div>
                   <div className="col-lg-2">
-                    <a href="/courier">
+                    <Link to="/courier">
                       <img
                         src="./images/fafa icon/CourierService.png"
                         width="20px"
                         alt="courierservice"
                       />
                       Courier Service
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* <!-- Button to Trigger Offcanvas Menu --> */}
-            <a data-bs-toggle="offcanvas" data-bs-target="#demo99">
+            <Link data-bs-toggle="offcanvas" data-bs-target="#demo99">
               <div className="box">
                 <center>
                   <img
@@ -863,7 +864,7 @@ function Index() {
                   <br /> Categories
                 </b>
               </center>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -878,48 +879,48 @@ function Index() {
             <div class="container">
               <div class="row">
                 <div class="col-lg-4">
-                  <a href="/halls">
+                  <Link to="/halls">
                     {" "}
                     <img
                       src="./images/Home services/banquet hall.png"
                       alt="banquet hall image"
                       class="mx-2 daily"
                     />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/halls">
+                    <Link to="/halls">
                       <b style={{ fontSize: "15px" }}>Banquet Halls</b>
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-4">
-                  <a href="/jewellary">
+                  <Link to="/jewellary">
                     {" "}
                     <img
                       src="./images/wedding/p5.png"
                       alt="spa image"
                       class="mx-2 daily"
                     />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/jewellary">
+                    <Link to="/jewellary">
                       <b style={{ fontSize: "15px" }}>Bridal Requisite</b>
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-4">
-                  <a href="/cateres">
+                  <Link to="/cateres">
                     {" "}
                     <img
                       src="./images/Home services/Caterers.png"
                       alt="Caterers image"
                       class="mx-2 daily"
                     />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/cateres">
+                    <Link to="/cateres">
                       <b style={{ fontSize: "15px" }}>Caterers</b>{" "}
-                    </a>
+                    </Link>
                   </center>
                 </div>
               </div>
@@ -932,49 +933,49 @@ function Index() {
             <div class="text-center">
               <div class="row">
                 <div class="col-lg-4">
-                  <a href="/beautyparlour">
+                  <Link to="/beautyparlour">
                     <img
                       src="./images/Home services/Beauty salon.png"
                       alt="beauty image"
                       class="mx-2 daily"
                     />
-                  </a>
+                  </Link>
                   <center>
                     {" "}
-                    <a href="/beautyparlour">
+                    <Link to="/beautyparlour">
                       <b style={{ fontSize: "15px" }}>Beauty Parlour</b>
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-4">
-                  <a href="/beautyparlour">
+                  <Link to="/beautyparlour">
                     {" "}
                     <img
                       src="./images/Home services/spa.png"
                       alt="spa image"
                       class="mx-2 daily"
                     />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/beautyparlour">
+                    <Link to="/beautyparlour">
                       <b style={{ fontSize: "15px" }}>spa & Massage</b>
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-4">
-                  <a href="/beautyparlour">
+                  <Link to="/beautyparlour">
                     {" "}
                     <img
                       src="./images/Home services/salon.png"
                       alt="salon image"
                       class="mx-2 daily"
                     />
-                  </a>
+                  </Link>
                   <center>
                     {" "}
-                    <a href="/beautyparlour">
+                    <Link to="/beautyparlour">
                       <b style={{ fontSize: "15px" }}>Salon</b>
-                    </a>
+                    </Link>
                   </center>
                 </div>
               </div>
@@ -991,47 +992,47 @@ function Index() {
             <div class="text-center">
               <div class="row">
                 <div class="col-lg-4">
-                  <a href="/acrepaire" style={{ textDecoration: "none" }}>
+                  <Link to="/acrepaire" style={{ textDecoration: "none" }}>
                     <img
                       src="./images/Home services/AC services.png"
                       alt="AC image"
                       class="mx-2 daily"
                     />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/acrepaire" style={{ textDecoration: "none" }}>
+                    <Link to="/acrepaire" style={{ textDecoration: "none" }}>
                       <b style={{ fontSize: "15px" }}>AC Services</b>
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-4">
-                  <a href="/carservices" style={{ textDecoration: "none" }}>
+                  <Link to="/carservices" style={{ textDecoration: "none" }}>
                     {" "}
                     <img
                       src="./images/Home services/car services.png"
                       alt="car image"
                       class="mx-2 daily"
                     />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/carservices" style={{ textDecoration: "none" }}>
+                    <Link to="/carservices" style={{ textDecoration: "none" }}>
                       <b style={{ fontSize: "15px" }}>Car Services</b>
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-4">
-                  <a href="/bike" style={{ textDecoration: "none" }}>
+                  <Link to="/bike" style={{ textDecoration: "none" }}>
                     {" "}
                     <img
                       src="./images/Home services/bike services.png"
                       alt="bike image"
                       class="mx-2 daily"
                     />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/bike" style={{ textDecoration: "none" }}>
+                    <Link to="/bike" style={{ textDecoration: "none" }}>
                       <b style={{ fontSize: "15px" }}>Bike Services</b>
-                    </a>
+                    </Link>
                   </center>
                 </div>
               </div>
@@ -1044,47 +1045,47 @@ function Index() {
             <div class="text-center">
               <div class="row">
                 <div class="col-lg-4">
-                  <a href="/movies">
+                  <Link to="/movies">
                     {" "}
                     <img
                       src="./images/Home services/movies.png"
                       alt="hotel image"
                       class="mx-2 daily"
                     />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/movies">
+                    <Link to="/movies">
                       <b style={{ fontSize: "15px" }}>Movies</b>
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-4">
-                  <a href="/grocery">
+                  <Link to="/grocery">
                     {" "}
                     <img
                       src="./images/Home services/grocery.png"
                       alt="hotel image"
                       class="mx-2 daily"
                     />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/grocery">
+                    <Link to="/grocery">
                       <b style={{ fontSize: "15px" }}>Grocery</b>
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-4">
-                  <a href="/electrician">
+                  <Link to="/electrician">
                     <img
                       src="./images/Home services/electrician.png"
                       alt="electrician image"
                       class="mx-2 daily"
                     />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/electrician">
+                    <Link to="/electrician">
                       <b style={{ fontSize: "15px" }}>Electrician</b>
-                    </a>
+                    </Link>
                   </center>
                 </div>
               </div>

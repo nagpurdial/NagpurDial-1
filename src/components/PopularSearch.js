@@ -1,5 +1,6 @@
 import React from "react";
 import "../Header & Footer/Footer.css";
+import { Link } from "react-router-dom";
 
 const popularSearches = [
   { text: "Cinema Halls", url: "/movies" },
@@ -67,9 +68,9 @@ function PopularSearch() {
         <p style={{ color: "grey", fontSize: "13px" }}>
           {popularSearches.map((search, index) => (
             <React.Fragment key={index}>
-              <a href={search.url} className="link">
+              <Link to={search.url} className="link">
                 {search.text}
-              </a>
+              </Link>
               {index < popularSearches.length - 1 && " | "}
             </React.Fragment>
           ))}

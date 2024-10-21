@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
-
+import { Link } from 'react-router-dom';
 const whatsappContacts = [
   { id: 1, phone: "919112233520", text1: "SP Jute Craft Enterprises" },
   // { id: 2, phone: "918080724453", text2: "Tanushri" },
@@ -67,14 +67,14 @@ function Store() {
                                 {/* Adjust carousel items here */}
                             </div>
                             {/* Carousel Controls */}
-                            <a className="carousel-control-prev" href="#carouselExampleSlidesOnly1" role="button" data-slide="prev">
+                            <Link className="carousel-control-prev" to="#carouselExampleSlidesOnly1" role="button" data-slide="prev">
                                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span className="sr-only text-danger">Previous</span>
-                            </a>
-                            <a className="carousel-control-next" href="#carouselExampleSlidesOnly1" role="button" data-slide="next">
+                            </Link>
+                            <Link className="carousel-control-next" to="#carouselExampleSlidesOnly1" role="button" data-slide="next">
                                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span className="sr-only text-danger">Next</span>
-                            </a>
+                            </Link>
                             <br />
                         </div>
                     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import PopularSearch from "../Models/components/PopularSearch";
+import { Link } from 'react-router-dom';
 function Advertise() {
   return (
     <div className="container">
@@ -138,10 +139,8 @@ function Advertise() {
             </p>
           </div>
         </div>
-        
-        <PopularSearch/>
-        
-        
+
+        <PopularSearch />
 
         <div className="container">
           <div className="social-media">
@@ -155,30 +154,30 @@ function Advertise() {
                 Follow us on:
               </strong>
 
-              <a href="#">
+              <Lnk to="#">
                 <i
                   className="fa fa-facebook-square mx-1"
                   style={{ fontSize: "20px", color: "blue" }}
                 ></i>
-              </a>
-              <a href="#">
+              </Lnk>
+              <Lnk to="#">
                 <i
                   className="fa fa-instagram mx-1"
                   style={{ fontSize: "20px", color: "red" }}
                 ></i>
-              </a>
-              <a href="#">
+              </Lnk>
+              <Lnk to="#">
                 <i
                   className="fa fa-linkedin-square mx-1"
                   style={{ fontSize: "20px", color: "blue" }}
                 ></i>
-              </a>
-              <a href="#">
+              </Lnk>
+              <Lnk to="#">
                 <i
                   className="fa fa-youtube-square mx-1"
                   style={{ fontSize: "20px", color: "red" }}
                 ></i>
-              </a>
+              </Lnk>
             </p>
             <p style={{ color: "grey", fontSize: "12px" }}>
               Nagpur Dial it is just a Website (Website Name) design and

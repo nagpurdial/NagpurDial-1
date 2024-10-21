@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 function CarServices() {
   return (
     <div className="container">
@@ -10,64 +11,64 @@ function CarServices() {
         <div className="container hh">
           <div className="row">
             <div className="col-lg-6 col-lg-61">
-              <a href="/carrepaireservices" style={{ textDecoration: "none" }}>
+              <Link to="/carrepaireservices" style={{ textDecoration: "none" }}>
                 <img src="./images/fafa icon/caar.png" width="25px" alt="Car" />
                 All Options
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61">
-              <a href="/carrepaireservices" style={{ textDecoration: "none" }}>
+              <Link to="/carrepaireservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/maruti_suziki-removebg-preview.png"
                   width="20px"
                   alt="Maruti Suzuki"
                 />
                 Maruti Suzuki
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-6 col-lg-61">
-              <a href="/carrepaireservices" style={{ textDecoration: "none" }}>
+              <Link to="/carrepaireservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/mahindra-removebg-preview.png"
                   width="20px"
                   alt="Mahindra"
                 />
                 Mahindra
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61">
-              <a href="/carrepaireservices" style={{ textDecoration: "none" }}>
+              <Link to="/carrepaireservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/hyundai-removebg-preview.png"
                   width="20px"
                   alt="Hyundai"
                 />
                 Hyundai
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-6 col-lg-61">
-              <a href="/carrepaireservices" style={{ textDecoration: "none" }}>
+              <Link to="/carrepaireservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/honda_car-removebg-preview.png"
                   width="20px"
                   alt="Honda"
                 />
                 Honda
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61">
-              <a href="/carrepaireservices" style={{ textDecoration: "none" }}>
+              <Link to="/carrepaireservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/Tata-removebg-preview.png"
                   width="20px"
                   alt="TATA"
                 />
                 TATA
-              </a>
+              </Link>
             </div>
           </div>
         </div>

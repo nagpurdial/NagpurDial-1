@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from 'react-router-dom';
 function Education() {
   return (
     <div className="container">
@@ -13,7 +14,7 @@ function Education() {
         <div className="container hh1">
           <div className="row ">
             <div className="col-lg-4 col-lg-41 ">
-              <a href="/educationschools">
+              <Link to="/educationschools">
                 {" "}
                 <img
                   src="./images/fafa icon/school.png"
@@ -21,21 +22,21 @@ function Education() {
                   alt="school"
                 />
                 Schools
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 col-lg-41">
-              <a href="/educationcollages">
+              <Link to="/educationcollages">
                 <img
                   src="./images/fafa icon/college.png"
                   className="icons-img"
                   alt="college"
                 />
                 Colleges
-              </a>
+              </Link>
             </div>
             {/* <div className="col-lg-4 col-lg-41">
              
-              <a href="/educationtraining">
+              <Link to="/educationtraining">
                 {" "}
                 <img
                   src="./images/fafa icon/training.png"
@@ -43,26 +44,26 @@ function Education() {
                   alt="training"
                 />
                 Vocational Training
-              </a>
+              </Link>
             </div> */}
           </div>
           <div className="row">
             {/* <div className="col-lg-4 col-lg-41 ">
-            <a href="/educationtraining">
+            <Link to="/educationtraining">
                 <img
                   src="./images/fafa icon/coaching.png"
                   className="icons-img"
                   alt="coaching"
                 />
                 Coaching
-              </a>
+              </Link>
             </div> */}
           </div>
         </div>
         <div className="container h">
           {/* <div className="row">
             <div className="col-lg-6 col-lg-61 ">
-              <a href="/educationschools">
+              <Link to="/educationschools">
                 {" "}
                 <img
                   src="./images/fafa icon/school.png"
@@ -70,32 +71,32 @@ function Education() {
                   alt="school"
                 />
                 Schools
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61">
-              <a href="/educationcollages">
+              <Link to="/educationcollages">
                 <img
                   src="./images/fafa icon/college.png"
                   className="icons-img"
                   alt="college"
                 />
                 Colleges
-              </a>
+              </Link>
             </div>
           </div> */}
           <div className="row ">
              <div className="col-lg-6 col-lg-61 ">
-              <a href="/educationtraining">
+              <Link to="/educationtraining">
                 <img
                   src="./images/fafa icon/coaching.png"
                   className="icons-img"
                   alt="coaching"
                 />
                 Coaching
-              </a>
+              </Link>
             </div> 
              <div className="col-lg-6 col-lg-61">
-              <a href="/educationtraining">
+              <Link to="/educationtraining">
                 {" "}
                 <img
                   src="./images/fafa icon/training.png"
@@ -103,7 +104,7 @@ function Education() {
                   alt="training"
                 />{" "}
                 Training
-              </a>
+              </Link>
             </div>
           </div>
         </div>

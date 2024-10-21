@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -9,16 +10,16 @@ const Footer = () => {
             <h4><strong>Our Links:</strong></h4>
             <ul>
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/advertisemodel">Advertise</a>
+                <Link to="/advertisemodel">Advertise</Link>
               </li>
               <li>
-                <a href="/about">About Us</a>
+                <Link to="/about">About Us</Link>
               </li>
               <li>
-                <a href="/model">Free Listing</a>
+                <Link to="/model">Free Listing</Link>
               </li>
             </ul>
           </div>
@@ -30,48 +31,48 @@ const Footer = () => {
           <div className="footer-section">
             <h4><strong>Follow us on:</strong></h4>
             <div className="social-media">
-              <a
-                href="https://www.facebook.com/pskitservices/"
+              <Link
+                to="https://www.facebook.com/pskitservices/"
                 className="social-icon facebook"
                 aria-label="Facebook"
               >
                 <i className="fa fa-facebook-f"></i>
-              </a>
-              <a
-                href="https://www.instagram.com/nagpurdial2023/?hl=en"
+              </Link>
+              <Link
+                to="https://www.instagram.com/nagpurdial2023/?hl=en"
                 className="social-icon instagram"
                 aria-label="Instagram"
               >
                 <i className="fa fa-instagram"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/nagpur-dial-7b2aa8193/"
+              </Link>
+              <Link
+                to="https://www.linkedin.com/in/nagpur-dial-7b2aa8193/"
                 className="social-icon linkedin"
                 aria-label="LinkedIn"
               >
                 <i className="fa fa-linkedin"></i>
-              </a>
-              <a
-                href="https://www.youtube.com/channel/UCtvy5OqTnh5I8kiOkgoAb9Q?view_as=subscriber"
+              </Link>
+              <Link
+                to="https://www.youtube.com/channel/UCtvy5OqTnh5I8kiOkgoAb9Q?view_as=subscriber"
                 className="social-icon youtube"
                 aria-label="YouTube"
               >
                 <i className="fa fa-youtube"></i>
-              </a>
-              <a
-                href="https://x.com/Nagpur_Dial"
+              </Link>
+              <Link
+                to="https://x.com/Nagpur_Dial"
                 className="social-icon twitter"
                 aria-label="Twitter"
               >
                 <i className="fa fa-twitter"></i>
-              </a>
-              <a
-                href="https://in.pinterest.com/nagpurdial/"
+              </Link>
+              <Link
+                to="https://in.pinterest.com/nagpurdial/"
                 className="social-icon pinterest"
                 aria-label="Pinterest"
               >
                 <i className="fa fa-pinterest-p"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </footer>
@@ -80,9 +81,9 @@ const Footer = () => {
           <p className="copyright">
             <strong>Copyright © 2024</strong>{" "}
             <i className="fa fa-heart" style={{ color: "red" }}></i>{" "}
-            <a href="https://pskitservices.com/">
+            <Link to="https://pskitservices.com/">
               Design By Psk Technologies Pvt. Ltd
-            </a>
+            </Link>
           </p>
         </div>
       </div>

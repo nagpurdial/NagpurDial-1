@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.js";
+import { Link } from 'react-router-dom';
 function Hospital() {
   return (
     <div className="container">
@@ -15,7 +16,7 @@ function Hospital() {
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-lg-41">
-              <a href="/hospitalclient" className="icons-img">
+              <Link to="/hospitalclient" className="icons-img">
                 {" "}
                 <img
                   src="./images/fafa icon/hosp.png"
@@ -23,62 +24,62 @@ function Hospital() {
                   alt="hospitals"
                 />
                 Hospitals
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-lg-41">
-              <a href="/hospitalclient" className="icons-img">
+              <Link to="/hospitalclient" className="icons-img">
                 <img
                   src="./images/fafa icon/hosp.png"
                   className="icons-img"
                   alt="hospitals"
                 />
                 Children clinic
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-lg-41">
-              <a href="/hospitalclient" className="icons-img hh">
+              <Link to="/hospitalclient" className="icons-img hh">
                 <img
                   src="./images/fafa icon/hosp.png"
                   className="icons-img"
                   alt="hospitals"
                 />
                 ENT Hospitals
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-lg-41">
-              <a href="/hospitalclient" className="icons-img hh">
+              <Link to="/hospitalclient" className="icons-img hh">
                 <img
                   src="./images/fafa icon/hosp.png"
                   className="icons-img"
                   alt="hospitals"
                 />
                 Maternity Clinic
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row ">
             <div className="col-lg-3 col-lg-41">
-              <a href="/hospitalclient" className="icons-img hh">
+              <Link to="/hospitalclient" className="icons-img hh">
                 <img
                   src="./images/fafa icon/hosp.png"
                   className="icons-img"
                   alt="hospitals"
                 />
                 Mental Hospitals
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-lg-41">
-              <a href="/hospitalclient" className="icons-img hide1">
+              <Link to="/hospitalclient" className="icons-img hide1">
                 <img
                   src="./images/fafa icon/hosp.png"
                   className="icons-img"
                   alt="hospitals"
                 />
                 Multispecialist Hospitals
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-lg-41">
-              <a href="/hospitalclient" className="icons-img hide1">
+              <Link to="/hospitalclient" className="icons-img hide1">
                 {" "}
                 <img
                   src="./images/fafa icon/hosp.png"
@@ -86,10 +87,10 @@ function Hospital() {
                   alt="hospitals"
                 />
                 Private Hospitals
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-lg-41">
-              <a href="/hospitalclient" className="icons-img hide1">
+              <Link to="/hospitalclient" className="icons-img hide1">
                 {" "}
                 <img
                   src="./images/fafa icon/hosp.png"
@@ -97,73 +98,73 @@ function Hospital() {
                   alt="hospitals"
                 />
                 public Hospitals
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row ">
             <div className="col-lg-3 col-lg-41">
-              <a href="/hospitalclient" className="icons-img ">
+              <Link to="/hospitalclient" className="icons-img ">
                 <img
                   src="./images/fafa icon/hosp.png"
                   className="icons-img"
                   alt="hospitals"
                 />
                 Eye Hospitals
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-lg-41">
-              <a href="/hospitalclient" className="icons-img ">
+              <Link to="/hospitalclient" className="icons-img ">
                 <img
                   src="./images/fafa icon/hosp.png"
                   className="icons-img"
                   alt="hospitals"
                 />
                 veternary Clinic
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row ">
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/hospitalclient" className="icons-img">
+              <Link to="/hospitalclient" className="icons-img">
                 <img
                   src="./images/fafa icon/hosp.png"
                   className="icons-img"
                   alt="hospitals"
                 />
                 ENT Hospitals
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/hospitalclient" className="icons-img">
+              <Link to="/hospitalclient" className="icons-img">
                 <img
                   src="./images/fafa icon/hosp.png"
                   className="icons-img"
                   alt="hospitals"
                 />
                 Maternity Clinic{" "}
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row ">
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/hospitalclient" className="icons-img">
+              <Link to="/hospitalclient" className="icons-img">
                 <img
                   src="./images/fafa icon/hosp.png"
                   className="icons-img"
                   alt="hospitals"
                 />
                 Private Clinic
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/hospitalclient" className="icons-img">
+              <Link to="/hospitalclient" className="icons-img">
                 <img
                   src="./images/fafa icon/hosp.png"
                   className="icons-img"
                   alt="hospitals"
                 />
                 Public Hospitals
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
+import { Link } from 'react-router-dom';
 const whatsappContacts = [
   { id: 1, phone: "918390801030", text1: "T3 Tourism" },
 ];
@@ -37,40 +38,40 @@ function Visa() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item ">
-              <a className="nav-link" href="flight.html">
+              <Link className="nav-link" to="flight.html">
                 <b>Flight</b>
-              </a>
+              </Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="hotel.html">
+              <Link className="nav-link" to="hotel.html">
                 <b>Hotel</b>
-              </a>
+              </Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="Bus.html">
+              <Link className="nav-link" to="Bus.html">
                 <b>Bus</b>
-              </a>
+              </Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="Train.html">
+              <Link className="nav-link" to="Train.html">
                 <b>Train</b>
-              </a>
+              </Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="Cab.html">
+              <Link className="nav-link" to="Cab.html">
                 <b>Cab</b>
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="Visa.html">
+              <Link className="nav-link" to="Visa.html">
                 <b>Visa Assistance</b>
                 <span className="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="Internationalsim.html">
+              <Link className="nav-link" to="Internationalsim.html">
                 <b>International Sim Card</b>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -140,9 +141,9 @@ function Visa() {
                     />
                   </div>
                 </div>
-                <a
+                <Link
                   className="carousel-control-prev"
-                  href="#carouselExampleSlidesOnly1"
+                  to="#carouselExampleSlidesOnly1"
                   role="button"
                   data-slide="prev"
                 >
@@ -151,10 +152,10 @@ function Visa() {
                     aria-hidden="true"
                   ></span>
                   <span className="sr-only text-danger">Previous</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="carousel-control-next"
-                  href="#carouselExampleSlidesOnly1"
+                  to="#carouselExampleSlidesOnly1"
                   role="button"
                   data-slide="next"
                 >
@@ -163,7 +164,7 @@ function Visa() {
                     aria-hidden="true"
                   ></span>
                   <span className="sr-only text-danger">Next</span>
-                </a>
+                </Link>
                 <br />
               </div>
             </div>
@@ -260,9 +261,9 @@ function Visa() {
                     />
                   </div>
                 </div>
-                <a
+                <Link
                   className="carousel-control-prev"
-                  href="#carouselExampleSlidesOnly2"
+                  to="#carouselExampleSlidesOnly2"
                   role="button"
                   data-slide="prev"
                 >
@@ -271,10 +272,10 @@ function Visa() {
                     aria-hidden="true"
                   ></span>
                   <span className="sr-only text-danger">Previous</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="carousel-control-next"
-                  href="#carouselExampleSlidesOnly2"
+                  to="#carouselExampleSlidesOnly2"
                   role="button"
                   data-slide="next"
                 >
@@ -283,7 +284,7 @@ function Visa() {
                     aria-hidden="true"
                   ></span>
                   <span className="sr-only text-danger">Next</span>
-                </a>
+                </Link>
                 <br />
               </div>
             </div>
@@ -377,9 +378,9 @@ function Visa() {
                     />
                   </div>
                 </div>
-                <a
+                <Link
                   className="carousel-control-prev"
-                  href="#carouselExampleSlidesOnly3"
+                  to="#carouselExampleSlidesOnly3"
                   role="button"
                   data-slide="prev"
                 >
@@ -388,10 +389,10 @@ function Visa() {
                     aria-hidden="true"
                   ></span>
                   <span className="sr-only text-danger">Previous</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="carousel-control-next"
-                  href="#carouselExampleSlidesOnly3"
+                  to="#carouselExampleSlidesOnly3"
                   role="button"
                   data-slide="next"
                 >
@@ -400,7 +401,7 @@ function Visa() {
                     aria-hidden="true"
                   ></span>
                   <span className="sr-only text-danger">Next</span>
-                </a>
+                </Link>
                 <br />
               </div>
             </div>

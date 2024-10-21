@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
-
+import { Link } from 'react-router-dom';
 
 const whatsappContacts = [
   { id: 1, phone: "9188056263005", text1: "Rruchita Unique Mindset Coach & NLP Master Practitioner" },
@@ -155,9 +155,9 @@ function Training()
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="prev"
                   >
@@ -166,10 +166,10 @@ function Training()
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="next"
                   >
@@ -178,7 +178,7 @@ function Training()
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -273,9 +273,9 @@ function Training()
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly7"
+                    to="#carouselExampleSlidesOnly7"
                     role="button"
                     data-slide="prev"
                   >
@@ -284,10 +284,10 @@ function Training()
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly7"
+                    to="#carouselExampleSlidesOnly7"
                     role="button"
                     data-slide="next"
                   >
@@ -296,7 +296,7 @@ function Training()
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -391,9 +391,9 @@ function Training()
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly8"
+                    to="#carouselExampleSlidesOnly8"
                     role="button"
                     data-slide="prev"
                   >
@@ -402,10 +402,10 @@ function Training()
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly8"
+                    to="#carouselExampleSlidesOnly8"
                     role="button"
                     data-slide="next"
                   >
@@ -414,7 +414,7 @@ function Training()
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -512,9 +512,9 @@ function Training()
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly11"
+                    to="#carouselExampleSlidesOnly11"
                     role="button"
                     data-slide="prev"
                   >
@@ -523,10 +523,10 @@ function Training()
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly11"
+                    to="#carouselExampleSlidesOnly11"
                     role="button"
                     data-slide="next"
                   >
@@ -535,7 +535,7 @@ function Training()
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -615,14 +615,14 @@ function Training()
                                                    <img src="./images/client/mens.png" className="d-block w-100" alt="Slide 3"/>
                                                    </div>
                                                </div>
-                                                <a className="carousel-control-prev" href="#carouselExampleSlidesOnly14" role="button" data-slide="prev">
+                                                <Link className="carousel-control-prev" to="#carouselExampleSlidesOnly14" role="button" data-slide="prev">
                                                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                                    <span className="sr-only text-danger">Previous</span>
-                                                   </a>
-                                               <a className="carousel-control-next" href="#carouselExampleSlidesOnly14" role="button" data-slide="next">
+                                                   </Link>
+                                               <Link className="carousel-control-next" to="#carouselExampleSlidesOnly14" role="button" data-slide="next">
                                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                                <span className="sr-only text-danger">Next</span>
-                                               </a>
+                                               </Link>
                                               
                                            </div>
                                            
@@ -690,14 +690,14 @@ function Training()
                                                    <img src="./images/client/mens.png" className="d-block w-100" alt="Slide 3"/>
                                                    </div>
                                                </div>
-                                                <a className="carousel-control-prev" href="#carouselExampleSlidesOnly14" role="button" data-slide="prev">
+                                                <Link className="carousel-control-prev" to="#carouselExampleSlidesOnly14" role="button" data-slide="prev">
                                                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                                    <span className="sr-only text-danger">Previous</span>
-                                                   </a>
-                                               <a className="carousel-control-next" href="#carouselExampleSlidesOnly14" role="button" data-slide="next">
+                                                   </Link>
+                                               <Link className="carousel-control-next" to="#carouselExampleSlidesOnly14" role="button" data-slide="next">
                                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                                <span className="sr-only text-danger">Next</span>
-                                               </a>
+                                               </Link>
                                                <br/>
                                            </div>
                                    </div>
@@ -766,14 +766,14 @@ function Training()
                                                    <img src="./images/client/mens.png" className="d-block w-100" alt="Slide 3"/>
                                                    </div>
                                                </div>
-                                                <a className="carousel-control-prev" href="#carouselExampleSlidesOnly18" role="button" data-slide="prev">
+                                                <Link className="carousel-control-prev" to="#carouselExampleSlidesOnly18" role="button" data-slide="prev">
                                                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                                    <span className="sr-only text-danger">Previous</span>
-                                                   </a>
-                                               <a className="carousel-control-next" href="#carouselExampleSlidesOnly18" role="button" data-slide="next">
+                                                   </Link>
+                                               <Link className="carousel-control-next" to="#carouselExampleSlidesOnly18" role="button" data-slide="next">
                                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                                <span className="sr-only text-danger">Next</span>
-                                               </a>
+                                               </Link>
                                                <br/>
                                            </div>
                                    </div>
@@ -839,14 +839,14 @@ function Training()
                                                    <img src="./images/client/mens.png" className="d-block w-100" alt="Slide 3"/>
                                                    </div>
                                                </div>
-                                                <a className="carousel-control-prev" href="#carouselExampleSlidesOnly21" role="button" data-slide="prev">
+                                                <Link className="carousel-control-prev" to="#carouselExampleSlidesOnly21" role="button" data-slide="prev">
                                                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                                    <span className="sr-only text-danger">Previous</span>
-                                                   </a>
-                                               <a className="carousel-control-next" href="#carouselExampleSlidesOnly21" role="button" data-slide="next">
+                                                   </Link>
+                                               <Link className="carousel-control-next" to="#carouselExampleSlidesOnly21" role="button" data-slide="next">
                                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                                <span className="sr-only text-danger">Next</span>
-                                               </a>
+                                               </Link>
                                                <br/>
                                            </div>
                                    </div>
@@ -913,14 +913,14 @@ function Training()
                                                    <img src="./images/client/mens.png" className="d-block w-100" alt="Slide 3"/>
                                                    </div>
                                                </div>
-                                                <a className="carousel-control-prev" href="#carouselExampleSlidesOnly22" role="button" data-slide="prev">
+                                                <Link className="carousel-control-prev" to="#carouselExampleSlidesOnly22" role="button" data-slide="prev">
                                                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                                    <span className="sr-only text-danger">Previous</span>
-                                                   </a>
-                                               <a className="carousel-control-next" href="#carouselExampleSlidesOnly22" role="button" data-slide="next">
+                                                   </Link>
+                                               <Link className="carousel-control-next" to="#carouselExampleSlidesOnly22" role="button" data-slide="next">
                                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
                                                <span className="sr-only text-danger">Next</span>
-                                               </a>
+                                               </Link>
                                                <br/>
                                            </div>
                                    </div>

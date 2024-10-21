@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 function EventOrganizers() {
   return (
     <div className="container">
@@ -11,8 +12,8 @@ function EventOrganizers() {
         <div className="container hide1">
           <div className="row">
             <div className="col-lg-4">
-              <a
-                href="/eventorganizerservices"
+              <Link
+                to="/eventorganizerservices"
                 style={{ textDecoration: "none" }}
               >
                 {" "}
@@ -22,11 +23,11 @@ function EventOrganizers() {
                   alt="Event Organizers"
                 />
                 Event Organizers
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4">
-              <a
-                href="/eventorganizerservices"
+              <Link
+                to="/eventorganizerservices"
                 style={{ textDecoration: "none" }}
               >
                 {" "}
@@ -36,11 +37,11 @@ function EventOrganizers() {
                   alt="Event Organizers"
                 />{" "}
                 Corporates Parties{" "}
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4">
-              <a
-                href="/eventorganizerservices"
+              <Link
+                to="/eventorganizerservices"
                 style={{ textDecoration: "none" }}
               >
                 {" "}
@@ -50,13 +51,13 @@ function EventOrganizers() {
                   alt="eventorganizers"
                 />{" "}
                 Private Parties
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4">
-              <a
-                href="/eventorganizerservices"
+              <Link
+                to="/eventorganizerservices"
                 style={{ textDecoration: "none" }}
               >
                 {" "}
@@ -66,11 +67,11 @@ function EventOrganizers() {
                   alt="eventorganizers"
                 />{" "}
                 Seminar Organizers
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4">
-              <a
-                href="/eventorganizerservices"
+              <Link
+                to="/eventorganizerservices"
                 style={{ textDecoration: "none" }}
               >
                 {" "}
@@ -80,10 +81,10 @@ function EventOrganizers() {
                   alt="eventorganizers"
                 />{" "}
                 Stage Show Organizer
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4">
-              <a href="Wedding" style={{ textDecoration: "none" }}>
+              <Link to="Wedding" style={{ textDecoration: "none" }}>
                 {" "}
                 <img
                   src="./images/fafa icon/eventsorganizers.png"
@@ -91,7 +92,7 @@ function EventOrganizers() {
                   alt="eventorganizers"
                 />{" "}
                 Wedding Organizer
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -99,8 +100,8 @@ function EventOrganizers() {
         <div className="container h">
           <div className="row">
             <div className="col-lg-6 col-lg-61">
-              <a
-                href="/eventorganizerservices"
+              <Link
+                to="/eventorganizerservices"
                 style={{ textDecoration: "none", fontSize: "13px" }}
               >
                 {" "}
@@ -110,11 +111,11 @@ function EventOrganizers() {
                   alt="eventorganizers"
                 />
                 Event Organizers
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-6 col-lg-61">
-              <a
-                href="/eventorganizerservices"
+              <Link
+                to="/eventorganizerservices"
                 style={{ textDecoration: "none", fontSize: "13px" }}
               >
                 {" "}
@@ -124,13 +125,13 @@ function EventOrganizers() {
                   alt="eventorganizers"
                 />
                 Corporates Parties{" "}
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-6 col-lg-61">
-              <a
-                href="/eventorganizerservices"
+              <Link
+                to="/eventorganizerservices"
                 style={{ textDecoration: "none", fontSize: "13px" }}
               >
                 {" "}
@@ -140,11 +141,11 @@ function EventOrganizers() {
                   alt="eventorganizers"
                 />
                 Seminar organizers
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61">
-              <a
-                href="/eventorganizerservices"
+              <Link
+                to="/eventorganizerservices"
                 style={{ textDecoration: "none", fontSize: "13px" }}
               >
                 {" "}
@@ -154,13 +155,13 @@ function EventOrganizers() {
                   alt="eventorganizers"
                 />
                 Stage Organizer
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-6 col-lg-61">
-              <a
-                href="/Wedding"
+              <Link
+                to="/Wedding"
                 style={{ textDecoration: "none", fontSize: "13px" }}
               >
                 {" "}
@@ -170,11 +171,11 @@ function EventOrganizers() {
                   alt="eventorganizers"
                 />
                 Wedding Organizer
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61">
-              <a
-                href="/eventorganizerservices"
+              <Link
+                to="/eventorganizerservices"
                 style={{ textDecoration: "none", fontSize: "13px" }}
               >
                 {" "}
@@ -184,7 +185,7 @@ function EventOrganizers() {
                   alt="eventorganizers"
                 />
                 Private Parties
-              </a>
+              </Link>
             </div>
           </div>
         </div>

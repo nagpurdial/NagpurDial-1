@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from 'react-router-dom';
 import PopularSearch from "./PopularSearch";
 function ACRepair() {
   return (
@@ -14,56 +15,56 @@ function ACRepair() {
         <div className="container ">
           <div className="row">
             <div className="col-lg-3">
-              <a href="/acrepairshops" style={{ textDecoration: "none" }}>
+              <Link to="/acrepairshops" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/carrier-removebg-preview.png"
                   width="30px"
                   alt="carrier-removebg-preview"
                 />
                 Carrier
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3">
-              <a href="/acrepairshops" style={{ textDecoration: "none" }}>
+              <Link to="/acrepairshops" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/LG-removebg-preview.png"
                   width="20px"
                   alt="LG-removebg-preview"
                 />
                 LG
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3">
-              <a href="/acrepairshops" style={{ textDecoration: "none" }}>
+              <Link to="/acrepairshops" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/toshiba-removebg-preview.png"
                   width="30px"
                   alt="toshiba-removebg-preview"
                 />
                 Toshiba
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3">
-              <a href="/acrepairshops" style={{ textDecoration: "none" }}>
+              <Link to="/acrepairshops" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/onida-removebg-preview.png"
                   width="30px"
                   alt="onida-removebg-preview"
                 />
                 Onida
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-3">
-              <a href="/acrepairshops" style={{ textDecoration: "none" }}>
+              <Link to="/acrepairshops" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/whirlpool__2_-removebg-preview.png"
                   width="30px"
                   alt="whirlpool__2_-removebg-preview"
                 />
                 Whirlpool
-              </a>
+              </Link>
             </div>
           </div>
         </div>

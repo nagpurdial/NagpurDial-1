@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 function Report() {
   return (
     <div class="container">
@@ -13,27 +14,27 @@ function Report() {
           <div class="container mt-3">
             <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a class="nav-link " href="/corporatemedia">
+                <Link class="nav-link " to="/corporatemedia">
                   Media(all)
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/press">
+                <Link class="nav-link" to="/press">
                   Press
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/Video">
+                <Link class="nav-link" to="/Video">
                   Videos
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link hh active" href="/report">
+                <Link class="nav-link hh active" to="/report">
                   Consumers Reports
-                </a>
-                <a class="nav-link h active" href="/report">
+                </Link>
+                <Link class="nav-link h active" to="/report">
                   Reports
-                </a>
+                </Link>
               </li>
             </ul>
             <div style={{ padding: "15px" }}></div>

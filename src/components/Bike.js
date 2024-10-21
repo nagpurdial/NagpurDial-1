@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from 'react-router-dom';
 function Bike() {
   return (
     <div className="container">
@@ -13,51 +14,51 @@ function Bike() {
         <div className="container h">
           <div className="row">
             <div className="col-lg-3">
-              <a href="/bikeservices" style={{ textDecoration: "none" }}>
+              <Link to="/bikeservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/bikes-removebg-preview.png"
                   width="20px"
                 />
                 All Options
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3">
-              <a href="/bikeservices" style={{ textDecoration: "none" }}>
+              <Link to="/bikeservices" style={{ textDecoration: "none" }}>
                 <img src="./images/fafa icon/bajaj.jpg" width="20px" />
                 Bajaj Bikes
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3">
-              <a href="/bikeservices" style={{ textDecoration: "none" }}>
+              <Link to="/bikeservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/mahindra-removebg-preview.png"
                   width="20px"
                 />
                 Hero Bikes
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3">
-              <a href="/bikeservices" style={{ textDecoration: "none" }}>
+              <Link to="/bikeservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/honda2-removebg-preview.png"
                   width="20px"
                 />
                 Honda Bikes
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-3">
-              <a href="/bikeservices" style={{ textDecoration: "none" }}>
+              <Link to="/bikeservices" style={{ textDecoration: "none" }}>
                 <img src="./images/fafa icon/yamaha.png" width="20px" />
                 Yamaha Bikes
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3">
-              <a href="/bikeservices" style={{ textDecoration: "none" }}>
+              <Link to="/bikeservices" style={{ textDecoration: "none" }}>
                 <img src="./images/fafa icon/royal enfilled.jpg" width="20px" />
                 Royal Enfield
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -65,68 +66,68 @@ function Bike() {
         <div className="container hh">
           <div className="row">
             <div className="col-lg-6 col-lg-61">
-              <a href="/bikeservices" style={{ textDecoration: "none" }}>
+              <Link to="/bikeservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/bikes-removebg-preview.png"
                   width="20px"
                   alt="bikes"
                 />
                 All Options
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61">
-              <a href="/bikeservices" style={{ textDecoration: "none" }}>
+              <Link to="/bikeservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/royal enfilled.jpg"
                   width="20px"
                   alt="royal enfield"
                 />
                 Royal Enfield
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-6 col-lg-61">
-              <a href="/bikeservices" style={{ textDecoration: "none" }}>
+              <Link to="/bikeservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/yamaha.png"
                   width="20px"
                   alt="yamaha"
                 />
                 Yamaha
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61">
-              <a href="/bikeservices" style={{ textDecoration: "none" }}>
+              <Link to="/bikeservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/honda2-removebg-preview.png"
                   width="20px"
                   alt="honda"
                 />
                 Honda
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-6 col-lg-61">
-              <a href="/bikeservices" style={{ textDecoration: "none" }}>
+              <Link to="/bikeservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/bajaj.jpg"
                   width="20px"
                   alt="bajaj"
                 />
                 Bajaj
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61">
-              <a href="/bikeservices" style={{ textDecoration: "none" }}>
+              <Link to="/bikeservices" style={{ textDecoration: "none" }}>
                 <img
                   src="./images/fafa icon/mahindra-removebg-preview.png"
                   width="20px"
                   alt="mahindra"
                 />
                 Hero
-              </a>
+              </Link>
             </div>
           </div>
         </div>

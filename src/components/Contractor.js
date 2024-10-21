@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import PopularSearch from "./PopularSearch";
+import { Link } from 'react-router-dom';
 function Contractor() {
   return (
     <div className="container">
@@ -17,7 +18,7 @@ function Contractor() {
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-lg-41">
-              <a href="/contractorsclients" class="icons-img">
+              <Link to="/contractorsclients" class="icons-img">
                 {" "}
                 <img
                   src="./images/fafa icon/CarpentryContractors.png"
@@ -25,62 +26,62 @@ function Contractor() {
                   alt="CarpentryContractors"
                 />
                 Carpentry{" "}
-              </a>
+              </Link>
             </div>
             <div class="col-lg-3 col-lg-41">
-              <a href="/contractorsclients" class="icons-img">
+              <Link to="/contractorsclients" class="icons-img">
                 <img
                   src="./images/fafa icon/CarpentryContractors.png"
                   class="icons-img"
                   alt="CarpentryContractors"
                 />
                 Plumbing{" "}
-              </a>
+              </Link>
             </div>
             <div class="col-lg-3 col-lg-41">
-              <a href="/contractorsclients" class="icons-img hide1">
+              <Link to="/contractorsclients" class="icons-img hide1">
                 <img
                   src="./images/fafa icon/CarpentryContractors.png"
                   class="icons-img"
                   alt="CarpentryContractors"
                 />{" "}
                 Electrical{" "}
-              </a>
+              </Link>
             </div>
             <div class="col-lg-3 col-lg-41">
-              <a href="/contractorsclients" class="icons-img hide1">
+              <Link to="/contractorsclients" class="icons-img hide1">
                 <img
                   src="./images/fafa icon/CarpentryContractors.png"
                   class="icons-img"
                   alt="CarpentryContractors"
                 />{" "}
                 Flooring{" "}
-              </a>
+              </Link>
             </div>
           </div>
           <div class="row ">
             <div class="col-lg-3 col-lg-41">
-              <a href="/contractorsclients" class="icons-img hide1">
+              <Link to="/contractorsclients" class="icons-img hide1">
                 <img
                   src="./images/fafa icon/CarpentryContractors.png"
                   class="icons-img"
                   alt="CarpentryContractors"
                 />
                 Furniture{" "}
-              </a>
+              </Link>
             </div>
             <div class="col-lg-3 col-lg-41">
-              <a href="/contractorsclients" class="icons-img hide1">
+              <Link to="/contractorsclients" class="icons-img hide1">
                 <img
                   src="./images/fafa icon/CarpentryContractors.png"
                   class="icons-img"
                   alt="CarpentryContractors"
                 />
                 Civil{" "}
-              </a>
+              </Link>
             </div>
             <div class="col-lg-3 col-lg-41">
-              <a href="/contractorsclients" class="icons-img hide1">
+              <Link to="/contractorsclients" class="icons-img hide1">
                 {" "}
                 <img
                   src="./images/fafa icon/CarpentryContractors.png"
@@ -88,10 +89,10 @@ function Contractor() {
                   alt="CarpentryContractors"
                 />
                 Painting{" "}
-              </a>
+              </Link>
             </div>
             <div class="col-lg-3 col-lg-41">
-              <a href="/contractorsclients" class="icons-img hide1">
+              <Link to="/contractorsclients" class="icons-img hide1">
                 {" "}
                 <img
                   src="./images/fafa icon/CarpentryContractors.png"
@@ -99,51 +100,51 @@ function Contractor() {
                   alt="CarpentryContractors"
                 />
                 Plumbing{" "}
-              </a>
+              </Link>
             </div>
           </div>
           <div class="row ">
             <div class="col-lg-6 col-lg-61 h">
-              <a href="/contractorsclients" class="icons-img">
+              <Link to="/contractorsclients" class="icons-img">
                 <img
                   src="./images/fafa icon/CarpentryContractors.png"
                   class="icons-img"
                   alt="CarpentryContractors"
                 />{" "}
                 Electrical{" "}
-              </a>
+              </Link>
             </div>
             <div class="col-lg-6 col-lg-61 h">
-              <a href="/contractorsclients" class="icons-img">
+              <Link to="/contractorsclients" class="icons-img">
                 <img
                   src="./images/fafa icon/CarpentryContractors.png"
                   class="icons-img"
                   alt="CarpentryContractors"
                 />{" "}
                 Flooring{" "}
-              </a>
+              </Link>
             </div>
           </div>
           <div class="row ">
             <div class="col-lg-6 col-lg-61 h">
-              <a href="/contractorsclients" class="icons-img">
+              <Link to="/contractorsclients" class="icons-img">
                 <img
                   src="./images/fafa icon/CarpentryContractors.png"
                   class="icons-img"
                   alt="CarpentryContractors"
                 />
                 Painting{" "}
-              </a>
+              </Link>
             </div>
             <div class="col-lg-6 col-lg-61 h">
-              <a href="/contractorsclients" class="icons-img">
+              <Link to="/contractorsclients" class="icons-img">
                 <img
                   src="./images/fafa icon/CarpentryContractors.png"
                   class="icons-img"
                   alt="CarpentryContractors"
                 />
                 Civil
-              </a>
+              </Link>
             </div>
           </div>
         </div>

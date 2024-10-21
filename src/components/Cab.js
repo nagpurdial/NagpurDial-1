@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
+import { Link } from 'react-router-dom';
 import "../App.css";
 
 const whatsappContacts = [
@@ -37,10 +38,10 @@ function Cab() {
           <ul className="navbar-nav mx-auto">
             {["Flight", "Hotel", "Bus", "Train", "Cab", "Visa Assistance", "International Sim Card"].map((item, index) => (
               <li key={index} className={`nav-item ${item === "Cab" ? "active" : ""}`}>
-                <a className="nav-link" href={`/${item.toLowerCase().replace(/ /g, "")}`}>
+                <Link className="nav-link" to={`/${item.toLowerCase().replace(/ /g, "")}`}>
                   <b>{item}</b>
                   {item === "Cab" && <span className="sr-only">(current)</span>}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -82,14 +83,14 @@ function Cab() {
                     </div>
                   ))}
                 </div>
-                <a className="carousel-control-prev" href="#carouselExampleSlidesOnly1" role="button" data-slide="prev">
+                <Link className="carousel-control-prev" to="#carouselExampleSlidesOnly1" role="button" data-slide="prev">
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span className="sr-only text-danger">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#carouselExampleSlidesOnly1" role="button" data-slide="next">
+                </Link>
+                <Link className="carousel-control-next" to="#carouselExampleSlidesOnly1" role="button" data-slide="next">
                   <span className="carousel-control-next-icon" aria-hidden="true"></span>
                   <span className="sr-only text-danger">Next</span>
-                </a>
+                </Link>
                 <br />
               </div>
             </div>

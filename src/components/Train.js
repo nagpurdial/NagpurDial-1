@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
-
+import { Link } from 'react-router-dom';
 function Train() {
   const [showOTPModal, setShowOTPModal] = useState(true);
   const [showContactForm, setShowContactForm] = useState(false);
@@ -49,10 +49,10 @@ function Train() {
           <ul className="navbar-nav mx-auto">
             {["Flight", "Hotel", "Bus", "Train", "Cab", "Visa", "International Sim Card"].map((item, index) => (
               <li key={index} className={`nav-item ${item === "Train" ? "active" : ""}`}>
-                <a className="nav-link" href={`/${item.replace(" ", "").toLowerCase()}`}>
+                <Link className="nav-link" to={`/${item.replace(" ", "").toLowerCase()}`}>
                   <b>{item}</b>
                   {item === "Train" && <span className="sr-only">(current)</span>}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -126,24 +126,24 @@ function Train() {
                       </div>
                     ))}
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href={`#carouselExampleSlidesOnly${index + 1}`}
+                    to={`#carouselExampleSlidesOnly${index + 1}`}
                     role="button"
                     data-slide="prev"
                   >
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href={`#carouselExampleSlidesOnly${index + 1}`}
+                    to={`#carouselExampleSlidesOnly${index + 1}`}
                     role="button"
                     data-slide="next"
                   >
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>

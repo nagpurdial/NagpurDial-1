@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from 'react-router-dom';
 function Listing() {
   return (
     <div className="container">
@@ -251,7 +252,7 @@ function Listing() {
               >
                 Follow us on:
               </strong>
-              <a href="#">
+              <Link to="#">
                 <i
                   className="fa fa-facebook-square mx-1"
                   style={{
@@ -259,8 +260,8 @@ function Listing() {
                     color: "blue",
                   }}
                 ></i>
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="#">
                 <i
                   className="fa fa-instagram mx-1"
                   style={{
@@ -268,8 +269,8 @@ function Listing() {
                     color: "red",
                   }}
                 ></i>
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="#">
                 <i
                   className="fa fa-linkedin-square mx-1"
                   style={{
@@ -277,8 +278,8 @@ function Listing() {
                     color: "blue",
                   }}
                 ></i>
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="#">
                 <i
                   className="fa fa-youtube-square mx-1"
                   style={{
@@ -286,7 +287,7 @@ function Listing() {
                     color: "red",
                   }}
                 ></i>
-              </a>
+              </Link>
             </p>
             <p style={{ color: "grey", fontSize: "12px" }}>
               Nagpur Dial it is just a Website (Website Name) design and

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../App.css"; // Assuming it's an CSS file, not JS
-
+import { Link } from 'react-router-dom';
 import Contact1 from "./Contact1";
 import Otp3 from "../Otp3";
 
@@ -74,9 +74,9 @@ function BachlorParty() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="prev"
                   >
@@ -85,10 +85,10 @@ function BachlorParty() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="next"
                   >
@@ -97,7 +97,7 @@ function BachlorParty() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only">Next</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

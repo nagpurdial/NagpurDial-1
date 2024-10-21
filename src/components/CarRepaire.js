@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
-
+import { Link } from 'react-router-dom';
 const whatsappContacts = [
   { id: 1, phone: "918600540777", text1: "Viraj Auto Services" },
  
@@ -81,9 +81,9 @@ function CarRepaire() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="prev"
                   >
@@ -92,10 +92,10 @@ function CarRepaire() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="next"
                   >
@@ -104,7 +104,7 @@ function CarRepaire() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -200,9 +200,9 @@ function CarRepaire() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly1"
+                    to="#carouselExampleSlidesOnly1"
                     role="button"
                     data-slide="prev"
                   >
@@ -211,10 +211,10 @@ function CarRepaire() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly1"
+                    to="#carouselExampleSlidesOnly1"
                     role="button"
                     data-slide="next"
                   >
@@ -223,7 +223,7 @@ function CarRepaire() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>

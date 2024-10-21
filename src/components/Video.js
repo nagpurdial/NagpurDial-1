@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from "react-router-dom";
 function Video() {
   return (
     <div className="container">
@@ -7,11 +8,11 @@ function Video() {
         <nav className="navbar">
           <ul className="menu">
             <li>
-              <a href="/overview">Overview</a>
+              <Link to="/overview">Overview</Link>
             </li>
             <li className="dropdown">
-              <a
-                href="#"
+              <Link
+                to="#"
                 className="dropdown-toggle"
                 data-toggle="dropdown"
                 role="button"
@@ -19,21 +20,21 @@ function Video() {
                 aria-expanded="false"
               >
                 <b>News & Events</b> <span className="caret"></span>
-              </a>
+              </Link>
               <ul className="dropdown-menu">
                 <li>
-                  <a href="/corporatemedia">Corporate News</a>
+                  <Link to="/corporatemedia">Corporate News</Link>
                 </li>
                 <li>
-                  <a href="/press">Press Release</a>
+                  <Link to="/press">Press Release</Link>
                 </li>
                 <li>
-                  <a href="/corporatemedia">Goverments news</a>
+                  <Link to="/corporatemedia">Goverments news</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="/csr">CSR</a>
+              <Link to="/csr">CSR</Link>
             </li>
           </ul>
           <div className="offcanvas offcanvas-start" id="demo1">
@@ -120,27 +121,27 @@ function Video() {
           <div className="container mt-3">
             <ul className="nav nav-tabs">
               <li className="nav-item">
-                <a className="nav-link" href="corporatemedia.html">
+                <Link className="nav-link" to="corporatemedia.html">
                   Media(all)
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="press.html">
+                <Link className="nav-link" to="press.html">
                   Press
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="video.html">
+                <Link className="nav-link active" to="video.html">
                   Videos
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link hide1" href="report.html">
+                <Link className="nav-link hide1" to="report.html">
                   Consumers Reports
-                </a>
-                <a className="nav-link hide" href="report.html">
+                </Link>
+                <Link className="nav-link hide" to="report.html">
                   Reports
-                </a>
+                </Link>
               </li>
             </ul>
             <div style={{ padding: "15px" }}></div>

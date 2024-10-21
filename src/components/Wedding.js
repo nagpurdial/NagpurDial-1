@@ -1,7 +1,7 @@
 import React from "react";
 import "../weddingstyle.css";
 import PopularSearch from "./PopularSearch";
-
+import { Link } from 'react-router-dom';
 function Wedding() {
   return (
     <div className="container">
@@ -15,69 +15,71 @@ function Wedding() {
           <div class="row">
             <div class="col-lg-2">
               <center>
-                <a href="/hall" class="a">
+                <Link to="/hall" class="a">
                   <img src="./images/wedding/w1.png" class="w1" alt="w1" />
-                </a>
+                </Link>
+
+                <Link to="/hall" class="a">
+                  Banquet Halls
+                </Link>
               </center>
-              <a href="/hall" class="a">
-                Banquet Halls
-              </a>
             </div>
             <div class="col-lg-2">
               <center>
                 {" "}
-                <a href="/caterings" class="a">
+                <Link to="/caterings" class="a">
                   <img src="./images/wedding/w2.png" class="w1" alt="w2" />
-                </a>
+                </Link>
+                <Link to="/caterings" class="a">
+                  Caterings{" "}
+                </Link>
               </center>
-              <a href="/caterings" class="a">
-                Caterings{" "}
-              </a>
             </div>
             <div class="col-lg-2">
               <center>
                 {" "}
-                <a href="/stageDecover" class="a">
+                <Link to="/stageDecover" class="a">
                   <img src="./images/wedding/w3.png" class="w1" alt="w3" />
-                </a>
+                </Link>
+                <Link to="/stageDecover" class="a">
+                  Decoration
+                </Link>
               </center>
-              <a href="/stageDecover" class="a">
-                Decoration
-              </a>
             </div>
             <div class="col-lg-2">
               <center>
                 {" "}
-                <a href="/photostudio" class="a">
+                <Link to="/photostudio" class="a">
                   {" "}
                   <img src="./images/wedding/w5.png" class="w1" alt="w5" />
-                </a>
+                </Link>
+                <Link to="/photostudio" class="a">
+                  Photographer
+                </Link>
               </center>
-              <a href="/photostudio" class="a">
-                Photographer
-              </a>
             </div>
             <div class="col-lg-2">
               <center>
-                <a href="/pandits" class="a">
+                <Link to="/pandits" class="a">
                   {" "}
                   <img src="./images/wedding/w4.png" class="w1" alt="w4" />
-                </a>
+                </Link>
+
+                <Link to="/pandits" class="a">
+                  Pandits
+                </Link>
               </center>
-              <a href="/pandits" class="a">
-                Pandits
-              </a>
             </div>
             <div class="col-lg-2">
               <center>
                 {" "}
-                <a href="/invitation" class="a">
+                <Link to="/invitation" class="a">
                   <img src="./images/wedding/w6.png" class="w1" alt="w1" />
-                </a>
+                </Link>
+                <Link to="/invitation" class="a">
+                  Invitation cards
+                </Link>
               </center>
-              <a href="/invitation" class="a">
-                Invitation cards
-              </a>
             </div>
           </div>
         </div>
@@ -89,69 +91,69 @@ function Wedding() {
         <div class="container">
           <div class="row">
             <div class="col-lg-2">
-              <a href="/bridalwear" class="a">
+              <Link to="/bridalwear" class="a">
                 {" "}
                 <img src="./images/wedding/p6.png" class="w2" alt="w2" />
-              </a>
+              </Link>
               <center>
-                <a href="/bridalwear" class="a">
+                <Link to="/bridalwear" class="a">
                   Bridal Wear
-                </a>
+                </Link>
               </center>
             </div>
             <div class="col-lg-2">
-              <a href="/jewellary" class="a">
+              <Link to="/jewellary" class="a">
                 {" "}
                 <img src="./images/wedding/p5.png" class="w2" alt="w2" />
-              </a>
+              </Link>
               <center>
                 {" "}
-                <a href="/jewellary" class="a">
+                <Link to="/jewellary" class="a">
                   Jewellary Shops
-                </a>
+                </Link>
               </center>
             </div>
             <div class="col-lg-2">
-              <a href="/beauty" class="a">
+              <Link to="/beauty" class="a">
                 <img src="./images/wedding/p4.png" class="w2" alt="w2" />
-              </a>
+              </Link>
               <center>
                 {" "}
-                <a href="/beauty" class="a">
+                <Link to="/beauty" class="a">
                   Makeup Artists
-                </a>
+                </Link>
               </center>
             </div>
             <div class="col-lg-2">
-              <a href="/mehandi" class="a">
+              <Link to="/mehandi" class="a">
                 <img src="./images/wedding/p3.png" class="w2" alt="p3" />
-              </a>
+              </Link>
               <center>
                 {" "}
-                <a href="/mehandi" class="a">
+                <Link to="/mehandi" class="a">
                   Mehandi Artists
-                </a>
+                </Link>
               </center>
             </div>
             <div class="col-lg-2">
-              <a href="/beauty" class="a">
+              <Link to="/beauty" class="a">
                 <img src="./images/wedding/p1.png" class="w2" alt="p1" />
-              </a>
+              </Link>
               <center>
-                <a href="/beauty" class="a">
+                <Link to="/beauty" class="a">
                   Hair Stylists
-                </a>
+                </Link>
               </center>
             </div>
             <div class="col-lg-2">
-              <a href="/beauty" class="a">
+              <Link to="/beauty" class="a">
                 {" "}
                 <img src="./images/wedding/p2.png" class="w2" alt="p2" />
-              </a>
+              </Link>
               <center>
-                <a href="/beauty" class="a">
+                <Link to="/beauty" class="a">
                   Salon
-                </a>
+                </Link>
               </center>
             </div>
           </div>
@@ -164,165 +166,174 @@ function Wedding() {
         <div class="container">
           <div class="row">
             <div class="col-lg-2">
-              <a href="/suits" class="a">
+              <Link to="/suits" class="a">
                 <img src="./images/wedding/g1.png" class="w2" alt="g1" />
-              </a>
+              </Link>
               <center>
-                <a href="/suits" class="a">
+                <Link to="/suits" class="a">
                   wedding Suits
-                </a>
+                </Link>
               </center>
             </div>
             <div class="col-lg-2">
-              <a href="/mensalon" class="a">
+              <Link to="/mensalon" class="a">
                 <img src="./images/wedding/g2.png" class="w2" alt="g2" />
-              </a>
+              </Link>
               <center>
                 {" "}
-                <a href="/mensalon" class="a">
+                <Link to="/mensalon" class="a">
                   Salon for Men{" "}
-                </a>
+                </Link>
               </center>
             </div>
             <div class="col-lg-2">
-              <a href="horse.html" class="a">
+              <Link to="horse.html" class="a">
                 {" "}
                 <img src="./images/wedding/g3.png" class="w2" alt="g3" />
-              </a>
+              </Link>
               <center>
                 {" "}
-                <a href="horse.html" class="a">
+                <Link to="horse.html" class="a">
                   Horses on Hire
-                </a>
+                </Link>
               </center>
             </div>
             <div class="col-lg-2">
-              <a href="/bachlorparty" class="a">
+              <Link to="/bachlorparty" class="a">
                 <img src="./images/wedding/g4.png" class="w2" alt="g4" />
-              </a>
+              </Link>
               <center>
                 {" "}
-                <a href="/bachlorparty" class="a">
+                <Link to="/bachlorparty" class="a">
                   Bachelor Party
-                </a>
+                </Link>
               </center>
             </div>
             <div class="col-lg-2">
-              <a href="/menmakeup" class="a">
+              <Link to="/menmakeup" class="a">
                 <img src="./images/wedding/g5.png" class="w2" alt="g5" />
-              </a>
+              </Link>
               <center>
-                <a href="/menmakeup" class="a">
+                <Link to="/menmakeup" class="a">
                   Makeup Artists
-                </a>
+                </Link>
               </center>
             </div>
             <div class="col-lg-2">
-              <a href="/menhairstyle" class="a">
+              <Link to="/menhairstyle" class="a">
                 {" "}
                 <img src="./images/wedding/g6.png" class="w2" alt="g6" />
-              </a>
+              </Link>
               <center>
-                <a href="/menhairstyle" class="a">
+                <Link to="/menhairstyle" class="a">
                   {" "}
                   Hair Stylists
-                </a>
+                </Link>
               </center>
             </div>
           </div>
         </div>
         <hr />
         {/* Pre-wedding Planning section */}
-        <h5>
-          <strong>Pre-wedding Planning</strong>
-        </h5>
-        <div class="container hide1">
+
+        <div class="container ">
           <div class="row">
-            <div class="col-lg-4 hide1"></div>
+            <div class="col-lg-4">
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <h1 style={{ fontFamily: "Forte" }}>
+                <strong>Pre-wedding Planning</strong>
+              </h1>
+            </div>
             <div class="col-lg-8">
               <div class="row">
                 <div class="col-lg-3">
-                  <a href="/astrologiest" class="a">
+                  <Link to="/astrologiest" class="a">
                     {" "}
                     <img src="./images/wedding/y1.png" class="w3" alt="y1" />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/astrologiest" class="a">
+                    <Link to="/astrologiest" class="a">
                       Astrologers
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-3">
-                  <a href="/marrigecertificateagents" class="a">
+                  <Link to="/marrigecertificateagents" class="a">
                     <img src="./images/wedding/y2.png" class="w3" alt="y2" />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/marrigecertificateagents" class="a">
+                    <Link to="/marrigecertificateagents" class="a">
                       Marrige Certificate
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-3">
-                  <a href="/jewellary" class="a">
+                  <Link to="/jewellary" class="a">
                     <img src="./images/wedding/p5.png" class="w3" alt="p5" />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/jewellary" class="a">
+                    <Link to="/jewellary" class="a">
                       Jewellary Shops
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-3 hide1">
-                  <a href="readymadegarments" class="a">
+                  <Link to="readymadegarments" class="a">
                     <img src="./images/wedding/y4.png" class="w3" alt="y4" />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/readymadegarments" class="a">
+                    <Link to="/readymadegarments" class="a">
                       ReadyMade Garments
-                    </a>
+                    </Link>
                   </center>
                 </div>
               </div>
               <div class="row">
                 <div class="col-lg-3">
-                  <a href="/stagedecover" class="a">
+                  <Link to="/stagedecover" class="a">
                     {" "}
                     <img src="./images/wedding/y3.png" class="w3" alt="y3" />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/stagedecover" class="a">
+                    <Link to="/stagedecover" class="a">
                       Haldi Decors
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-3">
-                  <a href="/invitation" class="a">
+                  <Link to="/invitation" class="a">
                     <img src="./images/wedding/w6.png" class="w3" alt="w6" />
-                  </a>
-                  <a href="/invitation" class="a">
+                  </Link>
+                  <Link to="/invitation" class="a">
                     Invitation cards
-                  </a>
+                  </Link>
                 </div>
                 <div class="col-lg-3">
-                  <a href="/hotel" class="a">
+                  <Link to="/hotel" class="a">
                     {" "}
                     <img src="./images/wedding/y6.png" class="w3" alt="y6" />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/hotel" class="a">
+                    <Link to="/hotel" class="a">
                       Hotels
-                    </a>
+                    </Link>
                   </center>
                 </div>
                 <div class="col-lg-3 hide1">
-                  <a href="/honemoontour" class="a">
+                  <Link to="/honemoontour" class="a">
                     {" "}
                     <img src="./images/wedding/dj5.png" class="w3" alt="dj5" />
-                  </a>
+                  </Link>
                   <center>
-                    <a href="/honemoontour" class="a">
+                    <Link to="/honemoontour" class="a">
                       Honeymoon Tour Packages
-                    </a>
+                    </Link>
                   </center>
                 </div>
               </div>
@@ -332,120 +343,130 @@ function Wedding() {
       </div>
       <hr />
       {/* For your Big day section */}
-      <h5>
+      {/* <h5>
         <strong>For your Big day</strong>
-      </h5>
+      </h5> */}
       <div class="container hide1">
         <div class="row">
           <div class="col-lg-4">
-            <img scr="./images/wedding/foryourday.jpg" alt="foryourday" />
+            {/* <img scr="./images/wedding/w3.png" alt="foryourday" /> */}
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1 style={{ fontFamily: "Forte" }}>
+              <strong>For your Big day</strong>
+            </h1>
           </div>
           <div class="col-lg-8">
             <div class="row">
               <div class="col-lg-3">
-                <a href="/stageDecover" class="a">
+                <Link to="/stageDecover" class="a">
                   {" "}
                   <img src="./images/wedding/w3.png" class="w3" alt="w3" />
-                </a>
+                </Link>
                 <center>
-                  <a href="/stagedecover" class="a">
+                  <Link to="/stagedecover" class="a">
                     Decoration
-                  </a>
+                  </Link>
                 </center>
               </div>
               <div class="col-lg-3">
-                <a href="caterings" class="a">
+                <Link to="caterings" class="a">
                   {" "}
                   <img src="./images/wedding/w2.png" class="w3" alt="w2" />
-                </a>
+                </Link>
                 <center>
-                  <a href="caterings" class="a">
+                  <Link to="caterings" class="a">
                     Cateres
-                  </a>
+                  </Link>
                 </center>
               </div>
               <div class="col-lg-3">
-                <a href="jewellary" class="a">
+                <Link to="jewellary" class="a">
                   <img src="./images/wedding/p5.png" class="w3" alt="p5" />
-                </a>
+                </Link>
                 <center>
-                  <a href="jewellary" class="a">
+                  <Link to="jewellary" class="a">
                     Jewellary Shops
-                  </a>
+                  </Link>
                 </center>
               </div>
               <div class="col-lg-3 hide1">
-                <a href="dj" class="a">
+                <Link to="dj" class="a">
                   <img src="./images/wedding/dj.png" class="w3" alt="dj" />
-                </a>
+                </Link>
                 <center>
-                  <a href="dj" class="a">
+                  <Link to="dj" class="a">
                     DJ Services
-                  </a>
+                  </Link>
                 </center>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-3">
-                <a href="bands.html" class="a">
+                <Link to="bands.html" class="a">
                   <img src="./images/wedding/dj2.png" class="w3" alt="dj" />
-                </a>
+                </Link>
                 <center>
-                  <a href="bands.html" class="a">
+                  <Link to="bands.html" class="a">
                     Wedding Band
-                  </a>
+                  </Link>
                 </center>
               </div>
               <div class="col-lg-3">
-                <a href="/beauty" class="a">
+                <Link to="/beauty" class="a">
                   <img src="./images/wedding/dj3.png" class="w3" alt="dj3" />
-                </a>
+                </Link>
                 <center>
-                  <a href="/beauty" class="a">
+                  <Link to="/beauty" class="a">
                     Bridal Make-Up{" "}
-                  </a>
+                  </Link>
                 </center>
               </div>
               <div class="col-lg-3">
-                <a href="/choregraphy" class="a">
+                <Link to="/choregraphy" class="a">
                   <img src="./images/wedding/dj4.png" class="w3" alt="dj4" />
-                </a>
+                </Link>
                 <center>
-                  <a href="/choregraphy" class="a">
+                  <Link to="/choregraphy" class="a">
                     Choreographer
-                  </a>
+                  </Link>
                 </center>
               </div>
               <div class="col-lg-3 hide1">
-                <a href="/eventorganizer" class="a">
+                <Link to="/eventorganizer" class="a">
                   <img src="./images/wedding/dj5.png" class="w3" alt="dj5" />
-                </a>
+                </Link>
                 <center>
-                  <a href="/eventorganizer" class="a">
+                  <Link to="/eventorganizer" class="a">
                     Party Organisers
-                  </a>
+                  </Link>
                 </center>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-3 hide">
-                <a href="dj" class="a">
+                <Link to="dj" class="a">
                   <img src="./images/wedding/dj.png" class="w3" alt="dj" />
-                </a>
+                </Link>
                 <center>
-                  <a href="dj" class="a">
+                  <Link to="dj" class="a">
                     DJ Services
-                  </a>
+                  </Link>
                 </center>
               </div>
               <div class="col-lg-3 hide">
-                <a href="eventorganizer." class="a">
+                <Link to="eventorganizer." class="a">
                   <img src="./images/wedding/dj5.png" class="w3" alt="dj5" />
-                </a>
+                </Link>
                 <center>
-                  <a href="/eventorganizer" class="a">
+                  <Link to="/eventorganizer" class="a">
                     Party Organisers
-                  </a>
+                  </Link>
                 </center>
               </div>
             </div>
@@ -457,87 +478,87 @@ function Wedding() {
       <div class="container hide">
         <div class="row">
           <div class="col-lg-2">
-            <a href="/stagedecover" class="a">
+            <Link to="/stagedecover" class="a">
               {" "}
               <img src="./images/wedding/w3.png" class="w3" alt="w3" />
-            </a>
+            </Link>
             <center>
-              <a href="/stagedecover" class="a">
+              <Link to="/stagedecover" class="a">
                 Decoration
-              </a>
+              </Link>
             </center>
           </div>
           <div class="col-lg-2">
-            <a href="/caterings" class="a">
+            <Link to="/caterings" class="a">
               {" "}
               <img src="./images/wedding/w2.png" class="w3" alt="w2" />
-            </a>
+            </Link>
             <center>
-              <a href="/caterings" class="a">
+              <Link to="/caterings" class="a">
                 Cateres
-              </a>
+              </Link>
             </center>
           </div>
           <div class="col-lg-2">
-            <a href="/jewellary" class="a">
+            <Link to="/jewellary" class="a">
               <img src="./images/wedding/p5.png" class="w3" alt="p5" />
-            </a>
+            </Link>
             <center>
-              <a href="/jewellary" class="a">
+              <Link to="/jewellary" class="a">
                 Jewellary Shops
-              </a>
+              </Link>
             </center>
           </div>
           <div class="col-lg-2">
-            <a href="/dj" class="a">
+            <Link to="/dj" class="a">
               <img src="./images/wedding/dj.png" class="w3" alt="dj" />
-            </a>
+            </Link>
             <center>
-              <a href="/dj" class="a">
+              <Link to="/dj" class="a">
                 DJ Services
-              </a>
+              </Link>
             </center>
           </div>
           <div class="col-lg-2">
-            <a href="/bands" class="a">
+            <Link to="/bands" class="a">
               <img src="./images/wedding/dj2.png" class="w3" alt="dj2" />
-            </a>
+            </Link>
             <center>
-              <a href="/bands" class="a">
+              <Link to="/bands" class="a">
                 Wedding Band
-              </a>
+              </Link>
             </center>
           </div>
           <div class="col-lg-2">
-            <a href="/beauty" class="a">
+            <Link to="/beauty" class="a">
               <img src="./images/wedding/dj3.png" class="w3" alt="dj3" />
-            </a>
+            </Link>
             <center>
-              <a href="/beauty" class="a">
+              <Link to="/beauty" class="a">
                 Bridal Make-Up{" "}
-              </a>
+              </Link>
             </center>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-2">
-            <a href="/choregraphy" class="a">
+            <Link to="/choregraphy" class="a">
               <img src="./images/wedding/dj4.png" class="w3" alt="dj4" />
-            </a>
+            </Link>
             <center>
-              <a href="/choregraphy" class="a">
+              <Link to="/choregraphy" class="a">
                 Choreographer
-              </a>
+              </Link>
             </center>
           </div>
           <div class="col-lg-2">
-            <a href="/eventorganizer" class="a">
+            <Link to="/eventorganizer" class="a">
               <img src="./images/wedding/dj5.png" class="w3" alt="dj5" />
-            </a>
+            </Link>
             <center>
-              <a href="/eventorganizer" class="a">
+              <Link to="/eventorganizer" class="a">
                 Party Organisers
-              </a>
+              </Link>
             </center>
           </div>
         </div>

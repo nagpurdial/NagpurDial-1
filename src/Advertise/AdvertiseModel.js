@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { Link } from 'react-router-dom';
 import Otp3 from "../Otp3"; // Import your OTP3 component
 const AdvertiseModel = () => {
   const modalRef = useRef(null);
@@ -17,14 +18,14 @@ const AdvertiseModel = () => {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title">NagpurDial</h5>
-            <a href="/" style={{ textDecoration: "none" }}>
+            <Link to="/" style={{ textDecoration: "none" }}>
               <button
                 type="button"
                 className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
-            </a>
+            </Link>
           </div>
           <div className="modal-body">
             <br />

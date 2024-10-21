@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import "./searchbar.css";
 
 const SearchBar = () => {
@@ -153,9 +154,9 @@ const SearchBar = () => {
       <div className="suggestions-container">
         {suggestions.map((page) => (
           <div key={page.id} className="suggestion">
-            <a href={page.link} style={{ textDecoration: "none" }}>
+            <Link to={page.link} style={{ textDecoration: "none" }}>
               {page.title}
-            </a>
+            </Link>
           </div>
         ))}
       </div>

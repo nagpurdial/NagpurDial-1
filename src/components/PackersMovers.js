@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
+import { Link } from 'react-router-dom';
 const whatsappContacts = [
   { id: 1, phone: "919975288300", text1: "Nagpurdial" },
   // { id: 2, phone: "918080724453", text2: "Tanushri" },
@@ -83,9 +84,9 @@ function PackersMovers() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="prev"
                   >
@@ -94,10 +95,10 @@ function PackersMovers() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="next"
                   >
@@ -106,7 +107,7 @@ function PackersMovers() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -197,9 +198,9 @@ function PackersMovers() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="prev"
                   >
@@ -208,10 +209,10 @@ function PackersMovers() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="next"
                   >
@@ -220,7 +221,7 @@ function PackersMovers() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>

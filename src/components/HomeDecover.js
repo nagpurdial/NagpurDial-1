@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 function HomeDecover() {
   return (
     <div className="container">
@@ -14,7 +14,7 @@ function HomeDecover() {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-lg-41">
-              <a href="/homefurniture" className="icons-img hide1">
+              <Link to="/homefurniture" className="icons-img hide1">
                 {" "}
                 <img
                   src="./images/fafa icon/fourniture.png"
@@ -22,53 +22,53 @@ function HomeDecover() {
                   alt="furniture"
                 />
                 Furnitures
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 col-lg-41">
-              <a href="/homefurniture" className="icons-img hide1">
+              <Link to="/homefurniture" className="icons-img hide1">
                 <img
                   src="./images/fafa icon/fourniture.png"
                   className="icons-img"
                   alt="furniture"
                 />
                 Furnishing
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 col-lg-41">
-              <a href="/homefurniture" className="icons-img hide1">
+              <Link to="/homefurniture" className="icons-img hide1">
                 <img
                   src="./images/fafa icon/Lamps&Lighting.png"
                   className="icons-img"
                   alt="Lamps&Lighting"
                 />
                 Lamps & Lighting
-              </a>
+              </Link>
             </div>
           </div>
 
           <div className="row ">
             <div className="col-lg-4 col-lg-41">
-              <a href="/homefurniture" className="icons-img ">
+              <Link to="/homefurniture" className="icons-img ">
                 <img
                   src="./images/fafa icon/InteriorDesigners.png"
                   className="icons-img"
                   alt="InteriorDesigners"
                 />
                 Interior Design
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 col-lg-41">
-              <a href="/homefurniture" className="icons-img ">
+              <Link to="/homefurniture" className="icons-img ">
                 <img
                   src="./images/fafa icon/Housekeeping.png"
                   className="icons-img"
                   alt="Housekeeping"
                 />
                 Housekeeping
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 col-lg-41">
-              <a href="/homefurniture" className="icons-img hide1">
+              <Link to="/homefurniture" className="icons-img hide1">
                 {" "}
                 <img
                   src="./images/fafa icon/Kitchen&Dining.png"
@@ -76,34 +76,34 @@ function HomeDecover() {
                   alt="Kitchen&Dining"
                 />
                 Kitchen & Dining
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row ">
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/homefurniture" className="icons-img">
+              <Link to="/homefurniture" className="icons-img">
                 <img
                   src="./images/fafa icon/Lamps&Lighting.png"
                   className="icons-img"
                   alt="Lamps&Lighting"
                 />
                 Lamps& Lights
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/homefurniture" className="icons-img">
+              <Link to="/homefurniture" className="icons-img">
                 <img
                   src="./images/fafa icon/Kitchen&Dining.png"
                   className="icons-img"
                   alt="kitchen&Dining"
                 />
                 Kitchen & Dining{" "}
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row ">
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/homefurniture" className="icons-img">
+              <Link to="/homefurniture" className="icons-img">
                 {" "}
                 <img
                   src="./images/fafa icon/fourniture.png"
@@ -111,17 +111,17 @@ function HomeDecover() {
                   alt="fourniture"
                 />
                 Furnitures
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/homefurniture" className="icons-img">
+              <Link to="/homefurniture" className="icons-img">
                 <img
                   src="./images/fafa icon/fourniture.png"
                   className="icons-img"
                   alt="fourniture"
                 />
                 Furnishing
-              </a>
+              </Link>
             </div>
           </div>
         </div>

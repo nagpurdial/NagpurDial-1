@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
-
+import { Link } from 'react-router-dom';
 const whatsappContacts = [
   { id: 1, phone: "919975288300", text1: "Nagpurdial" },
 ];
@@ -77,9 +77,9 @@ function HoneymoonTour() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     class="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly1"
+                    to="#carouselExampleSlidesOnly1"
                     role="button"
                     data-slide="prev"
                   >
@@ -88,10 +88,10 @@ function HoneymoonTour() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     class="carousel-control-next"
-                    href="#carouselExampleSlidesOnly1"
+                    to="#carouselExampleSlidesOnly1"
                     role="button"
                     data-slide="next"
                   >
@@ -100,7 +100,7 @@ function HoneymoonTour() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>

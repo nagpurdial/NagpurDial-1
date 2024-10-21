@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
-
+import { Link } from 'react-router-dom';
 const whatsappContacts = [
   { id: 1, phone: "919146660216", text1: "Bhagwan Gas Pipe Line Fitting" },
 ];
@@ -99,9 +99,9 @@ function Electrician() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="prev"
                   >
@@ -110,10 +110,10 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="next"
                   >
@@ -122,7 +122,7 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -217,9 +217,9 @@ function Electrician() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly1"
+                    to="#carouselExampleSlidesOnly1"
                     role="button"
                     data-slide="prev"
                   >
@@ -228,10 +228,10 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly1"
+                    to="#carouselExampleSlidesOnly1"
                     role="button"
                     data-slide="next"
                   >
@@ -240,7 +240,7 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -337,9 +337,9 @@ function Electrician() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly2"
+                    to="#carouselExampleSlidesOnly2"
                     role="button"
                     data-slide="prev"
                   >
@@ -348,10 +348,10 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly2"
+                    to="#carouselExampleSlidesOnly2"
                     role="button"
                     data-slide="next"
                   >
@@ -360,7 +360,7 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -453,9 +453,9 @@ function Electrician() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly4"
+                    to="#carouselExampleSlidesOnly4"
                     role="button"
                     data-slide="prev"
                   >
@@ -464,10 +464,10 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly4"
+                    to="#carouselExampleSlidesOnly4"
                     role="button"
                     data-slide="next"
                   >
@@ -476,7 +476,7 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -569,9 +569,9 @@ function Electrician() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly5"
+                    to="#carouselExampleSlidesOnly5"
                     role="button"
                     data-slide="prev"
                   >
@@ -580,10 +580,10 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly5"
+                    to="#carouselExampleSlidesOnly5"
                     role="button"
                     data-slide="next"
                   >
@@ -592,7 +592,7 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -685,9 +685,9 @@ function Electrician() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly6"
+                    to="#carouselExampleSlidesOnly6"
                     role="button"
                     data-slide="prev"
                   >
@@ -696,10 +696,10 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly6"
+                    to="#carouselExampleSlidesOnly6"
                     role="button"
                     data-slide="next"
                   >
@@ -708,7 +708,7 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -801,9 +801,9 @@ function Electrician() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly7"
+                    to="#carouselExampleSlidesOnly7"
                     role="button"
                     data-slide="prev"
                   >
@@ -812,10 +812,10 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly7"
+                    to="#carouselExampleSlidesOnly7"
                     role="button"
                     data-slide="next"
                   >
@@ -824,7 +824,7 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -917,9 +917,9 @@ function Electrician() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly8"
+                    to="#carouselExampleSlidesOnly8"
                     role="button"
                     data-slide="prev"
                   >
@@ -928,10 +928,10 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly8"
+                    to="#carouselExampleSlidesOnly8"
                     role="button"
                     data-slide="next"
                   >
@@ -940,7 +940,7 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -1033,9 +1033,9 @@ function Electrician() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     className="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly9"
+                    to="#carouselExampleSlidesOnly9"
                     role="button"
                     data-slide="prev"
                   >
@@ -1044,10 +1044,10 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="carousel-control-next"
-                    href="#carouselExampleSlidesOnly9"
+                    to="#carouselExampleSlidesOnly9"
                     role="button"
                     data-slide="next"
                   >
@@ -1056,7 +1056,7 @@ function Electrician() {
                       aria-hidden="true"
                     ></span>
                     <span className="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>

@@ -1,400 +1,401 @@
 import React from "react";
 import "../App.css";
+import { Link } from 'react-router-dom';
 function Bill() {
   return (
-    <div className="container">
-      <div className="container-fluid p-10">
+    <div classNameName="container">
+      <div classNameName="container-fluid p-10">
         <div style={{ padding: "5px" }}></div>
       </div>
       <hr />
-      <div class="container">
+      <div className="container">
         <center>
           <h3>
             <strong>Bill & Recharge</strong>
           </h3>
         </center>
-        <div class="row">
-          <div class="col-lg-3">
-            <a href="/bills&recharge">
+        <div className="row">
+          <div className="col-lg-3">
+            <Link to="/bills&recharge">
               {" "}
               <button
                 type="button"
-                class="btn btn-secondary active"
+                className="btn btn-secondary active"
                 data-bs-toggle="collapse"
                 data-bs-target="#demo"
                 style={{ fontSize: "12px" }}
               >
                 My Bills
               </button>
-            </a>
-            <div id="demo" class="collapse">
+            </Link>
+            <div id="demo" className="collapse">
               <p></p>
-              <div class="container88">
-                <div class="row">
-                  <div class="col-lg-3 col-lg-31">
-                    <a style={{ fontSize: "12px" }}>
+              <div className="container88">
+                <div className="row">
+                  <div className="col-lg-3 col-lg-31">
+                    <Link style={{ fontSize: "12px" }}>
                       <img
                         src="./images/fafa icon/mobileicon.png"
-                        class="icons"
+                        className="icons"
                         alt="mobileicon"
                       />
                       Prepaid
-                    </a>
+                    </Link>
                   </div>
-                  <div class="col-lg-3 col-lg-31">
-                    <a style={{ fontSize: "12px" }}>
+                  <div className="col-lg-3 col-lg-31">
+                    <Link style={{ fontSize: "12px" }}>
                       <img
                         src="./images/fafa icon/mobileicon.png"
-                        class="icons"
+                        className="icons"
                         alt="mobileicon"
                       />
                       Postpaid
-                    </a>
+                    </Link>
                   </div>
-                  <div class="col-lg-3 col-lg-31">
-                    <a style={{ fontSize: "12px" }}>
+                  <div className="col-lg-3 col-lg-31">
+                    <Link style={{ fontSize: "12px" }}>
                       <img
                         src="./images/fafa icon/electricity.png"
-                        class="icons"
+                        className="icons"
                         alt="electricity"
                       />
                       Electricity
-                    </a>
+                    </Link>
                   </div>
-                  <div class="col-lg-3 col-lg-31">
-                    <a style={{ fontSize: "12px" }}>
+                  <div className="col-lg-3 col-lg-31">
+                    <Link style={{ fontSize: "12px" }}>
                       <img
                         src="./images/fafa icon/gas.png"
-                        class="icons"
+                        className="icons"
                         alt="gas"
                       />
                       Cylinder
-                    </a>
+                    </Link>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-lg-3 col-lg-31">
-                    <a style={{ fontSize: "12px" }}>
+                <div className="row">
+                  <div className="col-lg-3 col-lg-31">
+                    <Link style={{ fontSize: "12px" }}>
                       <img
                         src="./images/fafa icon/water.png"
-                        class="icons"
+                        className="icons"
                         alt="water"
                       />
                       water
-                    </a>
+                    </Link>
                   </div>
-                  <div class="col-lg-3 col-lg-31">
-                    <a style={{ fontSize: "12px" }}>
+                  <div className="col-lg-3 col-lg-31">
+                    <Link style={{ fontSize: "12px" }}>
                       <img
                         src="./images/fafa icon/mobileicon.png"
-                        class="icons"
+                        className="icons"
                         alt="mobileicon"
                       />
                       Landline
-                    </a>
+                    </Link>
                   </div>
-                  <div class="col-lg-3 col-lg-31">
-                    <a style={{ fontSize: "12px" }}>
+                  <div className="col-lg-3 col-lg-31">
+                    <Link style={{ fontSize: "12px" }}>
                       <img
                         src="./images/fafa icon/insurance.png"
-                        class="icons"
+                        className="icons"
                         alt="insurance"
                       />
                       Insurance
-                    </a>
+                    </Link>
                   </div>
-                  <div class="col-lg-3 col-lg-31">
-                    <a style={{ fontSize: "12px" }}>
+                  <div className="col-lg-3 col-lg-31">
+                    <Link style={{ fontSize: "12px" }}>
                       <img
                         src="./images/fafa icon/gas.png"
-                        class="icons"
+                        className="icons"
                         alt="gas"
                       />
                       Pay Gas Bill
-                    </a>
+                    </Link>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-lg-3 col-lg-31">
-                    <a style={{ fontSize: "12px" }}>
+                <div className="row">
+                  <div className="col-lg-3 col-lg-31">
+                    <Link style={{ fontSize: "12px" }}>
                       <img
                         src="./images/fafa icon/water.png"
-                        class="icons"
+                        className="icons"
                         alt="water"
                       />
                       Boardband
-                    </a>
+                    </Link>
                   </div>
-                  <div class="col-lg-3 col-lg-31">
-                    <a style={{ fontSize: "12px" }}>
+                  <div className="col-lg-3 col-lg-31">
+                    <Link style={{ fontSize: "12px" }}>
                       <img
                         src="./images/fafa icon/mobileicon.png"
-                        class="icons"
+                        className="icons"
                         alt="water"
                       />
                       Disk-1
-                    </a>
+                    </Link>
                   </div>
-                  <div class="col-lg-3 col-lg-31">
-                    <a style={{ fontSize: "12px" }}>
+                  <div className="col-lg-3 col-lg-31">
+                    <Link style={{ fontSize: "12px" }}>
                       <img
                         src="./images/fafa icon/insurance.png"
-                        class="icons"
+                        className="icons"
                         alt="insurance"
                       />
                       Fastag
-                    </a>
+                    </Link>
                   </div>
-                  <div class="col-lg-3 col-lg-31">
-                    <a style={{ fontSize: "12px" }}>
+                  <div className="col-lg-3 col-lg-31">
+                    <Link style={{ fontSize: "12px" }}>
                       <img
                         src="./images/fafa icon/gas.png"
-                        class="icons"
+                        className="icons"
                         alt="gas"
                       />
                       TV Cable
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div style={{ padding: "5px" }} class="h"></div>
-          <div class="col-lg-3">
-            <a href="/bills&recharge">
+          <div style={{ padding: "5px" }} className="h"></div>
+          <div className="col-lg-3">
+            <Link to="/bills&recharge">
               {" "}
               <button
                 type="button"
-                class="btn btn-primary"
+                className="btn btn-primary"
                 data-bs-toggle="collapse"
                 data-bs-target="#demo2"
                 style={{ fontSize: "12px" }}
               >
                 Mobiles
               </button>
-            </a>
-            <div id="demo2" class="collapse">
+            </Link>
+            <div id="demo2" className="collapse">
               <p></p>
-              <div class="container88">
+              <div className="container88">
                 <form>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="planType"
                         id="prepaid"
                         value="prepaid"
                         checked
                       />
-                      <label class="form-check-label " for="prepaid">
+                      <label className="form-check-label " for="prepaid">
                         Prepaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input "
+                        className="form-check-input "
                         type="radio"
                         name="planType"
                         id="postpaid"
                         value="postpaid"
                       />
-                      <label class="form-check-label mx-2" for="postpaid">
+                      <label className="form-check-label mx-2" for="postpaid">
                         {" "}
                         Postpaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Name:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Name:</label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                     />
                   </div>
 
-                  <div class="mb-3">
-                    <label class="form-label">Email:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Email:</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Enter your email"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Amount:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Amount:</label>
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       id="phone"
                       placeholder="Enter Reachrage Plan"
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </form>
               </div>
             </div>
           </div>
-          <div style={{ padding: "5px" }} class="h"></div>
-          <div class="col-lg-3">
+          <div style={{ padding: "5px" }} className="h"></div>
+          <div className="col-lg-3">
             <button
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="collapse"
               data-bs-target="#demo3"
               style={{ fontSize: "12px" }}
             >
               DTH
             </button>
-            <div id="demo3" class="collapse">
+            <div id="demo3" className="collapse">
               <p></p>
-              <div class="container88">
+              <div className="container88">
                 <form>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="planType"
                         id="prepaid"
                         value="prepaid"
                         checked
                       />
-                      <label class="form-check-label " for="prepaid">
+                      <label className="form-check-label " for="prepaid">
                         Prepaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input "
+                        className="form-check-input "
                         type="radio"
                         name="planType"
                         id="postpaid"
                         value="postpaid"
                       />
-                      <label class="form-check-label mx-2" for="postpaid">
+                      <label className="form-check-label mx-2" for="postpaid">
                         {" "}
                         Postpaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Name:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Name:</label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                     />
                   </div>
 
-                  <div class="mb-3">
-                    <label class="form-label">Email:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Email:</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Enter your email"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Amount:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Amount:</label>
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       id="phone"
                       placeholder="Enter Reachrage Plan"
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </form>
               </div>
             </div>
           </div>
-          <div style={{ padding: "5px" }} class="h"></div>
-          <div class="col-lg-3">
+          <div style={{ padding: "5px" }} className="h"></div>
+          <div className="col-lg-3">
             <button
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="collapse"
               data-bs-target="#demo4"
               style={{ fontSize: "12px" }}
             >
               Electrical
             </button>
-            <div id="demo4" class="collapse">
+            <div id="demo4" className="collapse">
               <p></p>
-              <div class="container88">
+              <div className="container88">
                 <form>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="planType"
                         id="prepaid"
                         value="prepaid"
                         checked
                       />
-                      <label class="form-check-label " for="prepaid">
+                      <label className="form-check-label " for="prepaid">
                         Prepaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input "
+                        className="form-check-input "
                         type="radio"
                         name="planType"
                         id="postpaid"
                         value="postpaid"
                       />
-                      <label class="form-check-label mx-2" for="postpaid">
+                      <label className="form-check-label mx-2" for="postpaid">
                         {" "}
                         Postpaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Name:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Name:</label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Email:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Email:</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Enter your email"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Amount:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Amount:</label>
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       id="phone"
                       placeholder="Enter Reachrage Plan"
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </form>
@@ -404,316 +405,316 @@ function Bill() {
         </div>
 
         <div style={{ padding: "5px" }}></div>
-        <div class="row">
-          <div class="col-lg-3">
+        <div className="row">
+          <div className="col-lg-3">
             <button
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="collapse"
               data-bs-target="#demo5"
               style={{ fontSize: "12px" }}
             >
               Gas<span style={{ color: "blue" }}>gas</span>
             </button>
-            <div id="demo5" class="collapse">
+            <div id="demo5" className="collapse">
               <p></p>
-              <div class="container88">
+              <div className="container88">
                 <form>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="planType"
                         id="prepaid"
                         value="prepaid"
                         checked
                       />
-                      <label class="form-check-label " for="prepaid">
+                      <label className="form-check-label " for="prepaid">
                         Prepaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input "
+                        className="form-check-input "
                         type="radio"
                         name="planType"
                         id="postpaid"
                         value="postpaid"
                       />
-                      <label class="form-check-label mx-2" for="postpaid">
+                      <label className="form-check-label mx-2" for="postpaid">
                         {" "}
                         Postpaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Name:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Name:</label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Email:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Email:</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Enter your email"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Amount:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Amount:</label>
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       id="phone"
                       placeholder="Enter Reachrage Plan"
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </form>
               </div>
             </div>
           </div>
-          <div style={{ padding: "5px" }} class="h"></div>
-          <div class="col-lg-3">
+          <div style={{ padding: "5px" }} className="h"></div>
+          <div className="col-lg-3">
             <button
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="collapse"
               data-bs-target="#demo6"
               style={{ fontSize: "12px" }}
             >
               Landlines
             </button>
-            <div id="demo6" class="collapse">
+            <div id="demo6" className="collapse">
               <p></p>
-              <div class="container88">
+              <div className="container88">
                 <form>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="planType"
                         id="prepaid"
                         value="prepaid"
                         checked
                       />
-                      <label class="form-check-label " for="prepaid">
+                      <label className="form-check-label " for="prepaid">
                         Prepaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input "
+                        className="form-check-input "
                         type="radio"
                         name="planType"
                         id="postpaid"
                         value="postpaid"
                       />
-                      <label class="form-check-label mx-2" for="postpaid">
+                      <label className="form-check-label mx-2" for="postpaid">
                         {" "}
                         Postpaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Name:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Name:</label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Email:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Email:</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Enter your email"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Amount:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Amount:</label>
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       id="phone"
                       placeholder="Enter Reachrage Plan"
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </form>
               </div>
             </div>
           </div>
-          <div style={{ padding: "5px" }} class="h"></div>
-          <div class="col-lg-3">
+          <div style={{ padding: "5px" }} className="h"></div>
+          <div className="col-lg-3">
             <button
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="collapse"
               data-bs-target="#demo12"
               style={{ fontSize: "12px" }}
             >
               Water
             </button>
-            <div id="demo12" class="collapse">
+            <div id="demo12" className="collapse">
               <p></p>
-              <div class="container88">
+              <div className="container88">
                 <form>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="planType"
                         id="prepaid"
                         value="prepaid"
                         checked
                       />
-                      <label class="form-check-label " for="prepaid">
+                      <label className="form-check-label " for="prepaid">
                         Prepaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input "
+                        className="form-check-input "
                         type="radio"
                         name="planType"
                         id="postpaid"
                         value="postpaid"
                       />
-                      <label class="form-check-label mx-2" for="postpaid">
+                      <label className="form-check-label mx-2" for="postpaid">
                         {" "}
                         Postpaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Name:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Name:</label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Email:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Email:</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Enter your email"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Amount:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Amount:</label>
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       id="phone"
                       placeholder="Enter Reachrage Plan"
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </form>
               </div>
             </div>
           </div>
-          <div style={{ padding: "5px" }} class="h"></div>
-          <div class="col-lg-3">
+          <div style={{ padding: "5px" }} className="h"></div>
+          <div className="col-lg-3">
             <button
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="collapse"
               data-bs-target="#demo7"
               style={{ fontSize: "12px" }}
             >
               Insurance
             </button>
-            <div id="demo7" class="collapse">
+            <div id="demo7" className="collapse">
               <p></p>
-              <div class="container88">
+              <div className="container88">
                 <form>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="planType"
                         id="prepaid"
                         value="prepaid"
                         checked
                       />
-                      <label class="form-check-label " for="prepaid">
+                      <label className="form-check-label " for="prepaid">
                         Prepaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input "
+                        className="form-check-input "
                         type="radio"
                         name="planType"
                         id="postpaid"
                         value="postpaid"
                       />
-                      <label class="form-check-label mx-2" for="postpaid">
+                      <label className="form-check-label mx-2" for="postpaid">
                         {" "}
                         Postpaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Name:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Name:</label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Email:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Email:</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Enter your email"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Amount:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Amount:</label>
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       id="phone"
                       placeholder="Enter Reachrage Plan"
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </form>
@@ -722,317 +723,317 @@ function Bill() {
           </div>
         </div>
         <div style={{ padding: "5px" }}></div>
-        <div class="row">
-          <div class="col-lg-3">
+        <div className="row">
+          <div className="col-lg-3">
             <button
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="collapse"
               data-bs-target="#demo8"
               style={{ fontSize: "12px" }}
             >
               Cable TV
             </button>
-            <div id="demo8" class="collapse">
+            <div id="demo8" className="collapse">
               <p></p>
 
-              <div class="container88">
+              <div className="container88">
                 <form>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="planType"
                         id="prepaid"
                         value="prepaid"
                         checked
                       />
-                      <label class="form-check-label " for="prepaid">
+                      <label className="form-check-label " for="prepaid">
                         Prepaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input "
+                        className="form-check-input "
                         type="radio"
                         name="planType"
                         id="postpaid"
                         value="postpaid"
                       />
-                      <label class="form-check-label mx-2" for="postpaid">
+                      <label className="form-check-label mx-2" for="postpaid">
                         {" "}
                         Postpaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Name:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Name:</label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Email:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Email:</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Enter your email"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Amount:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Amount:</label>
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       id="phone"
                       placeholder="Enter Reachrage Plan"
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </form>
               </div>
             </div>
           </div>
-          <div style={{ padding: "5px" }} class="h"></div>
-          <div class="col-lg-3">
+          <div style={{ padding: "5px" }} className="h"></div>
+          <div className="col-lg-3">
             <button
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="collapse"
               data-bs-target="#demo9"
               style={{ fontSize: "12px" }}
             >
               FastTag
             </button>
-            <div id="demo9" class="collapse">
+            <div id="demo9" className="collapse">
               <p></p>
-              <div class="container88">
+              <div className="container88">
                 <form>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="planType"
                         id="prepaid"
                         value="prepaid"
                         checked
                       />
-                      <label class="form-check-label " for="prepaid">
+                      <label className="form-check-label " for="prepaid">
                         Prepaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input "
+                        className="form-check-input "
                         type="radio"
                         name="planType"
                         id="postpaid"
                         value="postpaid"
                       />
-                      <label class="form-check-label mx-2" for="postpaid">
+                      <label className="form-check-label mx-2" for="postpaid">
                         {" "}
                         Postpaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Name:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Name:</label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Email:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Email:</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Enter your email"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Amount:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Amount:</label>
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       id="phone"
                       placeholder="Enter Reachrage Plan"
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </form>
               </div>
             </div>
           </div>
-          <div style={{ padding: "5px" }} class="h"></div>
-          <div class="col-lg-3">
+          <div style={{ padding: "5px" }} className="h"></div>
+          <div className="col-lg-3">
             <button
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="collapse"
               data-bs-target="#demo11"
               style={{ fontSize: "12px" }}
             >
               Loan
             </button>
-            <div id="demo11" class="collapse">
+            <div id="demo11" className="collapse">
               <p></p>
-              <div class="container88">
+              <div className="container88">
                 <form>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="planType"
                         id="prepaid"
                         value="prepaid"
                         checked
                       />
-                      <label class="form-check-label " for="prepaid">
+                      <label className="form-check-label " for="prepaid">
                         Prepaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input "
+                        className="form-check-input "
                         type="radio"
                         name="planType"
                         id="postpaid"
                         value="postpaid"
                       />
-                      <label class="form-check-label mx-2" for="postpaid">
+                      <label className="form-check-label mx-2" for="postpaid">
                         {" "}
                         Postpaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Name:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Name:</label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Email:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Email:</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Enter your email"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Amount:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Amount:</label>
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       id="phone"
                       placeholder="Enter Reachrage Plan"
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </form>
               </div>
             </div>
           </div>
-          <div style={{ padding: "5px" }} class="h"></div>
-          <div class="col-lg-3">
+          <div style={{ padding: "5px" }} className="h"></div>
+          <div className="col-lg-3">
             <button
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="collapse"
               data-bs-target="#demo10"
               style={{ fontSize: "12px" }}
             >
               Boardband
             </button>
-            <div id="demo10" class="collapse">
+            <div id="demo10" className="collapse">
               <p></p>
-              <div class="container88">
+              <div className="container88">
                 <form>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="planType"
                         id="prepaid"
                         value="prepaid"
                         checked
                       />
-                      <label class="form-check-label " for="prepaid">
+                      <label className="form-check-label " for="prepaid">
                         Prepaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <div class="form-check">
+                  <div className="mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input "
+                        className="form-check-input "
                         type="radio"
                         name="planType"
                         id="postpaid"
                         value="postpaid"
                       />
-                      <label class="form-check-label mx-2" for="postpaid">
+                      <label className="form-check-label mx-2" for="postpaid">
                         {" "}
                         Postpaid
                       </label>
                     </div>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Name:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Name:</label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="name"
                       placeholder="Enter your name"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Email:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Email:</label>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="email"
                       placeholder="Enter your email"
                     />
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Amount:</label>
+                  <div className="mb-3">
+                    <label className="form-label">Amount:</label>
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       id="phone"
                       placeholder="Enter Reachrage Plan"
                     />
                   </div>
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Submit
                   </button>
                 </form>
@@ -1053,14 +1054,14 @@ function Bill() {
         Doctors |Train Ticket| Booking Agents| Travel Agents| Paying Guest
         Accommodations| General Physician Doctors| Dentists| Orthopaedic
         Doctors| Chemists| Motor Training Schools| Gastroenterologists |Car
-        Rental| Salons Courier Services |Dance Classes| Pathology Labs| Taxi
+        Rental| Salons Courier Services |Dance classNamees| Pathology Labs| Taxi
         Services| Cake Shops| AC Repair & Services| Mobile Phone| Dealers| Pet
         Shops | Dmart| Packers And Movers| Psychiatrists| Dharamshalas|
         Urologist Doctors| Bakeries | Bicycle | Dealers Coffee Shops|
-        Paediatricians |Sonography Centres | Yoga Classes| Hostels
+        Paediatricians |Sonography Centres | Yoga classNamees| Hostels
         Cardiologists| Electrical Shops| Skin Care Clinics | Diagnostic Centres|
         Homeopathic Doctors | Physiotherapists | Photo Studios | Plumbers |Music
-        Classes| Electricians| Sports |Goods Dealers| Shoe Dealers| Hair
+        classNamees| Electricians| Sports |Goods Dealers| Shoe Dealers| Hair
         Stylists| Gift Shops | Ophthalmologists | Car Repair & Services
         |Ayurvedic Doctors| Eye Clinics| Restaurants| Carpenters| Jewellery|
         Showrooms |Cooks On Hire |Stationery Shops| Nephrologists |Caterers

@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from 'react-router-dom';
 function Overview() {
   return (
     <div className="container">
@@ -7,13 +8,13 @@ function Overview() {
         <nav className="navbar">
           <ul className="menu">
             <li>
-              <a href="/overview">
+              <Link to="/overview">
                 <b> Overview</b>
-              </a>
+              </Link>
             </li>
             <li className="dropdown">
-              <a
-                href="#"
+              <Link
+                to="#"
                 className="dropdown-toggle"
                 data-toggle="dropdown"
                 role="button"
@@ -21,21 +22,21 @@ function Overview() {
                 aria-expanded="false"
               >
                 News & Events <span className="caret"></span>
-              </a>
+              </Link>
               <ul className="dropdown-menu">
                 <li>
-                  <a href="/corporatemedia">Corporate News</a>
+                  <Link to="/corporatemedia">Corporate News</Link>
                 </li>
                 <li>
-                  <a href="/press">Press Release</a>
+                  <Link to="/press">Press Release</Link>
                 </li>
                 <li>
-                  <a href="/corporatemedia">Goverments news</a>
+                  <Link to="/corporatemedia">Goverments news</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="/csr">CSR</a>
+              <Link to="/csr">CSR</Link>
             </li>
           </ul>
         </nav>
@@ -44,7 +45,7 @@ function Overview() {
         <div className="banner48">
           <div style={{ padding: "90px" }}></div>
           <div style={{ padding: "10px" }}>
-            <a>
+            <Link>
               <img
                 src="./images/client/psk.jpg"
                 width="45px"
@@ -61,7 +62,7 @@ function Overview() {
                   (Founder CEO)
                 </span>
               </small>
-            </a>
+            </Link>
           </div>
           <div style={{ padding: "10px" }}></div>
         </div>

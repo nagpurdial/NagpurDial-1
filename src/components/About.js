@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from 'react-router-dom';
 import PopularSearch from "./PopularSearch";
 
 function About() {
@@ -79,58 +80,58 @@ function About() {
           </small>
           <div>
             {" "}
-            <a>
+            <Link>
               <img
                 src="./images/fafa icon/psk.png"
                 width="20px"
                 alt="Psk Technnolologie Pvt. Ltd"
               />
               Psk Technnolologie Pvt. Ltd
-            </a>
+            </Link>
           </div>
           <div>
             {" "}
-            <a>
+            <Link>
               <img
                 src="./images/fafa icon/psk.png"
                 width="20px"
                 alt="Psk Technnolologie Pvt. Ltd"
               />
               Psk Technnolologie Pvt. Ltd
-            </a>
+            </Link>
           </div>
           <div>
             {" "}
-            <a>
+            <Link>
               <img
                 src="./images/fafa icon/psk.png"
                 width="20px"
                 alt="Psk Technnolologie Pvt. Ltd"
               />
               Psk Technnolologie Pvt. Ltd
-            </a>
+            </Link>
           </div>
           <div>
             {" "}
-            <a>
+            <Link>
               <img
                 src="./images/fafa icon/psk.png"
                 width="20px"
                 alt="Psk Technnolologie Pvt. Ltd"
               />
               Psk Technnolologie Pvt. Ltd
-            </a>
+            </Link>
           </div>
           <div>
             {" "}
-            <a>
+            <Link>
               <img
                 src="./images/fafa icon/psk.png"
                 width="20px"
                 alt="Psk Technnolologie Pvt. Ltd"
               />
               Psk Technnolologie Pvt. Ltd
-            </a>
+            </Link>
           </div>
         </div>
       </div>

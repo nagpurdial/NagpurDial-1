@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 function Courier() {
   return (
     <div className="container">
@@ -12,68 +13,68 @@ function Courier() {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-lg-41">
-              <a href="/courierServices" className="icons-img">
+              <Link to="/courierServices" className="icons-img">
                 <img
                   src="./images/fafa icon/all.png"
                   className="icons-img"
                   alt="all"
                 />
                 All Types Courier
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 col-lg-41">
-              <a href="courierServices" className="icons-img">
+              <Link to="courierServices" className="icons-img">
                 <img
                   src="./images/fafa icon/bulk.png"
                   className="icons-img"
                   alt="bulk"
                 />
                 Bulk Courier
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 col-lg-41 hh">
-              <a href="/courierServices" className="icons-img">
+              <Link to="/courierServices" className="icons-img">
                 <img
                   src="./images/fafa icon/local.png"
                   className="icons-img"
                   alt="local"
                 />
                 Local Courier
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row ">
             <div className="col-lg-4 col-lg-41">
-              <a href="/courierServices" className="icons-img">
+              <Link to="/courierServices" className="icons-img">
                 <img
                   src="./images/fafa icon/national.png"
                   className="icons-img"
                   alt="national"
                 />
                 National Courier
-              </a>
+              </Link>
             </div>
             <div className="col-lg-4 col-lg-41 ">
-              <a href="/courierServices" className="icons-img">
+              <Link to="/courierServices" className="icons-img">
                 <img
                   src="./images/fafa icon/international.png"
                   className="icons-img"
                   alt="international"
                 />
                 International{" "}
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row ">
             <div className="col-lg-6 col-lg-61 h">
-              <a href="/courierServices" className="icons-img">
+              <Link to="/courierServices" className="icons-img">
                 <img
                   src="./images/fafa icon/local.png"
                   className="icons-img"
                   alt="local"
                 />
                 Local Courier
-              </a>
+              </Link>
             </div>
           </div>
         </div>

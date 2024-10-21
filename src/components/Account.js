@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../App.css";
+import { Link } from 'react-router-dom';
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
 
@@ -72,9 +73,9 @@ function Account() {
                     />
                   </div>
                 </div>
-                <a
+                <Link
                   className="carousel-control-prev"
-                  href="#carouselExampleSlidesOnly"
+                  to="#carouselExampleSlidesOnly"
                   role="button"
                   data-slide="prev"
                 >
@@ -83,10 +84,10 @@ function Account() {
                     aria-hidden="true"
                   ></span>
                   <span className="sr-only text-danger">Previous</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="carousel-control-next"
-                  href="#carouselExampleSlidesOnly"
+                  to="#carouselExampleSlidesOnly"
                   role="button"
                   data-slide="next"
                 >
@@ -95,7 +96,7 @@ function Account() {
                     aria-hidden="true"
                   ></span>
                   <span className="sr-only text-danger">Next</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

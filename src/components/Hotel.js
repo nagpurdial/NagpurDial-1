@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 function Hotel() {
   return (
     <div className="container">
@@ -7,40 +8,40 @@ function Hotel() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item ">
-              <a className="nav-link" href="/flight">
+              <Link className="nav-link" to="/flight">
                 <b>Flight</b>
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="/hotel">
+              <Link className="nav-link" to="/hotel">
                 <b>Hotel</b>
                 <span className="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/bus">
+              <Link className="nav-link" to="/bus">
                 <b>Bus</b>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Train">
+              <Link className="nav-link" to="/Train">
                 <b>Train</b>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/cab">
+              <Link className="nav-link" to="/cab">
                 <b>Cab</b>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Visa">
+              <Link className="nav-link" to="/Visa">
                 <b>Visa Assistance</b>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/internationalsim">
+              <Link className="nav-link" to="/internationalsim">
                 <b>International Sim Card</b>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

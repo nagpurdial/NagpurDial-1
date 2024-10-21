@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
 import PopularSearch from "./PopularSearch";
-
+import { Link } from 'react-router-dom';
 const contacts = [
   {
     id: 1,
@@ -58,20 +58,20 @@ function Restaurant() {
             <div className="restaurant-info">
               <h6><strong>{contact.name}</strong></h6>
               <p>
-                <a
-                  href={`https://wa.me/${contact.phone}`} // For WhatsApp messaging
+                <Link
+                  to={`https://wa.me/${contact.phone}`} // For WhatsApp messaging
                   className="contact-button"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Message
-                </a>
-                <a
-                  href={`tel:${contact.phone}`} // For direct phone calls
+                </Link>
+                <Link
+                  to={`tel:${contact.phone}`} // For direct phone calls
                   className="contact-button"
                 >
                   Call
-                </a>
+                </Link>
               </p>
             </div>
           </div>

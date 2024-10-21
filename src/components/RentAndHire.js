@@ -3,7 +3,7 @@ import "../App.css";
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
 import PopularSearch from "./PopularSearch";
-
+import { Link } from 'react-router-dom';
 const whatsappContacts = [
   { id: 1, phone: "919975288300", text1: "Nagpurdial" },
   // { id: 2, phone: "918080724453", text2: "Tanushri" },
@@ -51,60 +51,60 @@ function RentAndHire() {
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-lg-41">
-              <a href="/rentservice" class="icons-img ">
+              <Link to="/rentservice" class="icons-img ">
                 <img
                   src="./images/fafa icon/mini bus.png"
                   class="icons-img"
                   alt="bus"
                 />
                 Mini Bus on Rent
-              </a>
+              </Link>
             </div>
             <div class="col-lg-4 col-lg-41">
-              <a href="/rentservice" class="icons-img ">
+              <Link to="/rentservice" class="icons-img ">
                 <img
                   src="./images/fafa icon/truck.png"
                   class="icons-img"
                   alt="truck"
                 />
                 Tempos on Rent
-              </a>
+              </Link>
             </div>
             <div class="col-lg-4 col-lg-41">
-              <a href="/rentservice" class="icons-img hh">
+              <Link to="/rentservice" class="icons-img hh">
                 <img
                   src="./images/fafa icon/customer.png"
                   class="icons-img"
                   alt="customer"
                 />
                 Constumer Rent
-              </a>
+              </Link>
             </div>
           </div>
 
           <div class="row ">
             <div class="col-lg-4 col-lg-41">
-              <a href="/rentservice" class="icons-img hh">
+              <Link to="/rentservice" class="icons-img hh">
                 <img
                   src="./images/fafa icon/truck.png"
                   class="icons-img"
                   alt="truck"
                 />
                 Tempos on Rent
-              </a>
+              </Link>
             </div>
             <div class="col-lg-4 col-lg-41">
-              <a href="/rentservice" class="icons-img hh">
+              <Link to="/rentservice" class="icons-img hh">
                 <img
                   src="./images/fafa icon/mini bus.png"
                   class="icons-img"
                   alt="mini bus "
                 />
                 Mini Bus on Rent
-              </a>
+              </Link>
             </div>
             <div class="col-lg-4 col-lg-41">
-              <a href="/rentservice" class="icons-img hh">
+              <Link to="/rentservice" class="icons-img hh">
                 {" "}
                 <img
                   src="./images/fafa icon/ac.png"
@@ -112,35 +112,35 @@ function RentAndHire() {
                   alt="ac"
                 />
                 AC on Rent
-              </a>
+              </Link>
             </div>
           </div>
           <div class="row ">
             <div class="col-lg-6 col-lg-61 h">
-              <a href="/rentservice" class="icons-img">
+              <Link to="/rentservice" class="icons-img">
                 <img
                   src="./images/fafa icon/customer.png"
                   class="icons-img"
                   alt="customer"
                 />
                 Constumer Rent
-              </a>
+              </Link>
             </div>
             <div class="col-lg-6 col-lg-61 h">
-              <a href="/rentservice" class="icons-img">
+              <Link to="/rentservice" class="icons-img">
                 <img
                   src="./images/fafa icon/ac.png"
                   class="icons-img"
                   alt="ac"
                 />
                 AC on Rent
-              </a>
+              </Link>
             </div>
           </div>
 
           <div class="row ">
             <div class="col-lg-6 col-lg-61 h">
-              <a href="/rentservice" class="icons-img">
+              <Link to="/rentservice" class="icons-img">
                 {" "}
                 <img
                   src="./images/fafa icon/caar.png"
@@ -148,17 +148,17 @@ function RentAndHire() {
                   alt="caar"
                 />
                 Car on Rent
-              </a>
+              </Link>
             </div>
             <div class="col-lg-6 col-lg-61 h">
-              <a href="/rentservice" class="icons-img">
+              <Link to="/rentservice" class="icons-img">
                 <img
                   src="./images/fafa icon/buss.png"
                   class="icons-img"
                   alt="buss"
                 />
                 Bus on Rent
-              </a>
+              </Link>
             </div>
           </div>
         </div>

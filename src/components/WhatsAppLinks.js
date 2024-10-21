@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const WhatsAppLinks = ({ links }) => {
     const handleButton1Click = () => {
         // Replace with the actual phone number index you want to redirect to
@@ -21,9 +21,9 @@ const WhatsAppLinks = ({ links }) => {
                 <div>
                     {links.map((link, index) => (
                         <div key={index}>
-                            <a href={link} target="_blank" rel="noopener noreferrer">
+                            <Link to={link} target="_blank" rel="noopener noreferrer">
                                 {/* Chat with {phoneNumbers[index]} */}
-                            </a>
+                            </Link>
                         </div>
                     ))}
                 </div>
@@ -34,10 +34,10 @@ const WhatsAppLinks = ({ links }) => {
 };
 
 // Example data: array of phone numbers
-const phoneNumbers = ['919604589537', '919834467583', '918080724453'];
+const phoneNumbers = ['919604589537', '919834467583'];
 
 // Example message
-const message = 'Prashant';
+const message = 'Prashant kadhao';
 
 // Function to generate WhatsApp links
 const generateWhatsAppLinks = () => {

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "../App.css";
 
 function Consultants() {
@@ -12,7 +13,7 @@ function Consultants() {
         <div style={{ padding: "5px" }}></div>
         <div class="row">
           <div class="col-lg-4 col-lg-41">
-            <a href="/lawyers" class="icons-img">
+            <Link to="/lawyers" class="icons-img">
               {" "}
               <img
                 src="./images/fafa icon/lawyers.png"
@@ -20,84 +21,84 @@ function Consultants() {
                 alt="lawyers"
               />
               Lawyers
-            </a>
+            </Link>
           </div>
           <div class="col-lg-4 col-lg-41">
-            <a href="/auditors" class="icons-img">
+            <Link to="/auditors" class="icons-img">
               <img
                 src="./images/fafa icon/lawyers.png"
                 class="icons-img"
                 alt="lawyers"
               />{" "}
               Auditors
-            </a>
+            </Link>
           </div>
           <div class="col-lg-4 col-lg-41">
-            <a href="/ca" class="icons-img hh">
+            <Link to="/ca" class="icons-img hh">
               <img
                 src="./images/fafa icon/lawyers.png"
                 class="icons-img"
                 alt="lawyers"
               />
               Chartered Accountants
-            </a>
+            </Link>
           </div>
         </div>
         <div class="row ">
           <div class="col-lg-4 col-lg-41">
-            <a href="/Valuers" class="icons-img hide1">
+            <Link to="/Valuers" class="icons-img hide1">
               <img
                 src="./images/fafa icon/lawyers.png"
                 class="icons-img"
                 alt="lawyers"
               />
               Valuers
-            </a>
+            </Link>
           </div>
           <div class="col-lg-4 col-lg-41">
-            <a href="/incometax" class="icons-img hide1">
+            <Link to="/incometax" class="icons-img hide1">
               <img
                 src="./images/fafa icon/lawyers.png"
                 class="icons-img"
                 alt="lawyers"
               />{" "}
               GST Compliance Consultants
-            </a>
+            </Link>
           </div>
         </div>
         <div class="row ">
           <div class="col-lg-6 col-lg-61 h">
-            <a href="/valours" class="icons-img">
+            <Link to="/valours" class="icons-img">
               <img
                 src="./images/fafa icon/lawyers.png"
                 class="icons-img"
                 alt="lawyers"
               />{" "}
               Valuers
-            </a>
+            </Link>
           </div>
           <div class="col-lg-6 col-lg-61 h">
-            <a href="/incometax" class="icons-img">
+            <Link to="/incometax" class="icons-img">
               <img
                 src="./images/fafa icon/lawyers.png"
                 class="icons-img"
                 alt="lawyers"
               />
               GST
-            </a>
+            </Link>
           </div>
         </div>
 
         <div class="row ">
           <div class="col-lg-6 col-lg-61 h">
-            <a href="/ca" class="icons-img">
+            <Link to="/ca" class="icons-img">
               <img
                 src="./images/fafa icon/lawyers.png"
                 class="icons-img"
                 alt="lawyers"
               />
               CA
-            </a>
+            </Link>
           </div>
         </div>
         <div style={{ padding: "5px" }}></div>

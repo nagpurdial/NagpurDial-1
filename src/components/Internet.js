@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
 import "../App.css";
+import { Link } from 'react-router-dom';
 const whatsappContacts = [
   { id: 1, phone: "918530300808", text1: "Eroth NetLink Solution India Pvt Ltd" },
 ];
@@ -76,9 +77,9 @@ function Internet() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     class="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="prev"
                   >
@@ -87,10 +88,10 @@ function Internet() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     class="carousel-control-next"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="next"
                   >
@@ -99,7 +100,7 @@ function Internet() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>

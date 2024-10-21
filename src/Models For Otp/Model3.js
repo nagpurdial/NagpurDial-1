@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Login from "../Signup & Login/Login";
+import { Link } from "react-router-dom";
 
 const Modal3 = () => {
   const modalRef = useRef(null);
@@ -20,14 +21,14 @@ const Modal3 = () => {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title">NagpurDial</h5>
-            <a href="/" style={{ textDecoration: "none" }}>
+            <Link to="/" style={{ textDecoration: "none" }}>
               <button
                 type="button"
                 className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
-            </a>
+            </Link>
           </div>
           <div className="modal-body">
             <h5 style={{ fontFamily: "Times New Roman" }}>
@@ -38,8 +39,8 @@ const Modal3 = () => {
           <div className="modal-footer">
             <p>
               Click on SignUp if not register{" "}
-              <a
-                href="/model"
+              <Link
+                to="/model"
                 style={{
                   fontFamily: "Times New Roman",
                   color: "blue",
@@ -48,7 +49,7 @@ const Modal3 = () => {
                 }}
               >
                 SignUp
-              </a>
+              </Link>
             </p>
           </div>
         </div>

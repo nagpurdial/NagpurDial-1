@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import "../App.css";
 import Businesschat from "../Businesschat/Businesschatmodel"; 
 import Otp2 from "../Otp2";
@@ -69,24 +70,24 @@ function ACRepairShops() {
                     />
                   </div>
                 </div>
-                <a
+                <Link
                   className="carousel-control-prev"
-                  href="#carouselExampleSlidesOnly3"
+                  to="#carouselExampleSlidesOnly3"
                   role="button"
                   data-slide="prev"
                 >
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span className="sr-only">Previous</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="carousel-control-next"
-                  href="#carouselExampleSlidesOnly3"
+                  to="#carouselExampleSlidesOnly3"
                   role="button"
                   data-slide="next"
                 >
                   <span className="carousel-control-next-icon" aria-hidden="true"></span>
                   <span className="sr-only">Next</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

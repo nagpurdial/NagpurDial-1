@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Businesschat from "../Businesschat/Businesschatmodel"; 
+import Businesschat from "../Businesschat/Businesschatmodel";
 import Otp2 from "../Otp2";
-
+import { Link } from 'react-router-dom';
 const whatsappContacts = [
   { id: 1, phone: "917770086588", text1: "Glitzy Moon" },
 ];
@@ -88,9 +88,9 @@ function EventsOrganizersServices() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     class="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="prev"
                   >
@@ -99,10 +99,10 @@ function EventsOrganizersServices() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     class="carousel-control-next"
-                    href="#carouselExampleSlidesOnly"
+                    to="#carouselExampleSlidesOnly"
                     role="button"
                     data-slide="next"
                   >
@@ -111,7 +111,7 @@ function EventsOrganizersServices() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -180,7 +180,7 @@ function EventsOrganizersServices() {
               <div class="container">
                 <br />
                 <div
-                  id="carouselExampleSlidesOnly1"
+                  id="carouselExampleSlidesOnly2"
                   class="carousel slide"
                   data-ride="carousel"
                   data-interval="false"
@@ -208,9 +208,9 @@ function EventsOrganizersServices() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     class="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly1"
+                    to="#carouselExampleSlidesOnly2"
                     role="button"
                     data-slide="prev"
                   >
@@ -219,10 +219,10 @@ function EventsOrganizersServices() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     class="carousel-control-next"
-                    href="#carouselExampleSlidesOnly1"
+                    to="#carouselExampleSlidesOnly2"
                     role="button"
                     data-slide="next"
                   >
@@ -231,7 +231,7 @@ function EventsOrganizersServices() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -300,7 +300,7 @@ function EventsOrganizersServices() {
               <div class="container">
                 <br />
                 <div
-                  id="carouselExampleSlidesOnly2"
+                  id="carouselExampleSlidesOnly3"
                   class="carousel slide"
                   data-ride="carousel"
                   data-interval="false"
@@ -328,9 +328,9 @@ function EventsOrganizersServices() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     class="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly2"
+                    to="#carouselExampleSlidesOnly3"
                     role="button"
                     data-slide="prev"
                   >
@@ -339,10 +339,10 @@ function EventsOrganizersServices() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     class="carousel-control-next"
-                    href="#carouselExampleSlidesOnly2"
+                    to="#carouselExampleSlidesOnly3"
                     role="button"
                     data-slide="next"
                   >
@@ -351,7 +351,7 @@ function EventsOrganizersServices() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -411,6 +411,7 @@ function EventsOrganizersServices() {
             </div>
           </div>
         </div>
+        {/* <!-- client-4 ---> */}
         <div style={{ padding: "5px" }}></div>
         <div class="beauty">
           <div class="row">
@@ -446,9 +447,9 @@ function EventsOrganizersServices() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     class="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly3"
+                    to="#carouselExampleSlidesOnly3"
                     role="button"
                     data-slide="prev"
                   >
@@ -457,10 +458,10 @@ function EventsOrganizersServices() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     class="carousel-control-next"
-                    href="#carouselExampleSlidesOnly3"
+                    to="#carouselExampleSlidesOnly3"
                     role="button"
                     data-slide="next"
                   >
@@ -469,7 +470,7 @@ function EventsOrganizersServices() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -529,6 +530,7 @@ function EventsOrganizersServices() {
             </div>
           </div>
         </div>
+        {/* <!-- client-5 ---> */}
         <div style={{ padding: "5px" }}></div>
         <div class="beauty">
           <div class="row">
@@ -564,9 +566,9 @@ function EventsOrganizersServices() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     class="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly4"
+                    to="#carouselExampleSlidesOnly4"
                     role="button"
                     data-slide="prev"
                   >
@@ -575,10 +577,10 @@ function EventsOrganizersServices() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     class="carousel-control-next"
-                    href="#carouselExampleSlidesOnly4"
+                    to="#carouselExampleSlidesOnly4"
                     role="button"
                     data-slide="next"
                   >
@@ -587,7 +589,7 @@ function EventsOrganizersServices() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -648,6 +650,7 @@ function EventsOrganizersServices() {
             </div>
           </div>
         </div>
+        {/* <!-- client-6 ---> */}
         <div style={{ padding: "5px" }}></div>
         <div class="beauty">
           <div class="row">
@@ -683,9 +686,9 @@ function EventsOrganizersServices() {
                       />
                     </div>
                   </div>
-                  <a
+                  <Link
                     class="carousel-control-prev"
-                    href="#carouselExampleSlidesOnly8"
+                    to="#carouselExampleSlidesOnly8"
                     role="button"
                     data-slide="prev"
                   >
@@ -694,10 +697,10 @@ function EventsOrganizersServices() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Previous</span>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     class="carousel-control-next"
-                    href="#carouselExampleSlidesOnly8"
+                    to="#carouselExampleSlidesOnly8"
                     role="button"
                     data-slide="next"
                   >
@@ -706,7 +709,7 @@ function EventsOrganizersServices() {
                       aria-hidden="true"
                     ></span>
                     <span class="sr-only text-danger">Next</span>
-                  </a>
+                  </Link>
                   <br />
                 </div>
               </div>
@@ -765,60 +768,60 @@ function EventsOrganizersServices() {
         </div>
         <div style={{ padding: "5px" }}></div>
         {/* Modal for OTP and Contact1 */}
-             {showOTPModal && (
-        <div
-          className="modal fade show"
-          tabIndex="-1"
-          style={{ display: "block" }}
-        >
-          <div className="modal-dialog modal-dialog-centered">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title">OTP Verification</h5>
-                <button
-                  type="button"
-                  className="btn-close"
-                  aria-label="Close"
-                  onClick={handleCloseModal}
-                ></button>
-              </div>
-              <div className="modal-body">
-                <Otp2
-                  onClose={handleCloseModal}
-                  onOtpVerified={handleOtpVerified}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-      {showContactForm && (
-        <div
-          className="modal fade show"
-          tabIndex="-1"
-          style={{ display: "block" }}
-        >
-          <div className="modal-dialog modal-dialog-centered">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title">Contact Form</h5>
-                <button
-                  type="button"
-                  className="btn-close"
-                  aria-label="Close"
-                  onClick={handleCloseModal}
-                ></button>
-              </div>
-              <div className="modal-body">
-                <Businesschat
-                  contact={selectedContact}
-                  onClose={handleCloseModal}
-                />
+        {showOTPModal && (
+          <div
+            className="modal fade show"
+            tabIndex="-1"
+            style={{ display: "block" }}
+          >
+            <div className="modal-dialog modal-dialog-centered">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title">OTP Verification</h5>
+                  <button
+                    type="button"
+                    className="btn-close"
+                    aria-label="Close"
+                    onClick={handleCloseModal}
+                  ></button>
+                </div>
+                <div className="modal-body">
+                  <Otp2
+                    onClose={handleCloseModal}
+                    onOtpVerified={handleOtpVerified}
+                  />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      )}
+        )}
+        {showContactForm && (
+          <div
+            className="modal fade show"
+            tabIndex="-1"
+            style={{ display: "block" }}
+          >
+            <div className="modal-dialog modal-dialog-centered">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title">Contact Form</h5>
+                  <button
+                    type="button"
+                    className="btn-close"
+                    aria-label="Close"
+                    onClick={handleCloseModal}
+                  ></button>
+                </div>
+                <div className="modal-body">
+                  <Businesschat
+                    contact={selectedContact}
+                    onClose={handleCloseModal}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         <hr />
       </div>

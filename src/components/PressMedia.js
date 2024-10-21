@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Contact1 from "./Contact1"; // Correct import path for Contact1
 import Otp3 from "../Otp3"; // Correct import path for your OTP component
-
+import { Link } from 'react-router-dom';
 const whatsappContacts = [
   { id: 1, phone: "919975288300", text1: "Nagpurdial" },
   // { id: 2, phone: "918080724453", text2: "Tanushri" },
@@ -50,27 +50,27 @@ function PressMedia() {
           <div class="container mt-3">
             <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a class="nav-link " href="/corporatemedia">
+                <Link class="nav-link " to="/corporatemedia">
                   Media(all)
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/press">
+                <Link class="nav-link active" to="/press">
                   Press
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/Video">
+                <Link class="nav-link" to="/Video">
                   Videos
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link hh" href="/report">
+                <Link class="nav-link hh" to="/report">
                   Consumers Reports
-                </a>
-                <a class="nav-link h" href="/report">
+                </Link>
+                <Link class="nav-link h" to="/report">
                   Reports
-                </a>
+                </Link>
               </li>
             </ul>
 

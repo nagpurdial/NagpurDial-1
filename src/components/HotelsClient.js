@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Businesschat from "../Businesschat/Businesschatmodel";
 import Otp2 from "../Otp2";
-
+import { Link } from 'react-router-dom';
 const whatsappContacts = [
   { id: 1, phone: "9171266658887", text1: "Radisson Blu Hotel Nagpur" },
 ];
@@ -62,20 +62,20 @@ function HotelsClient() {
                     </div>
                   </div>
                   {/* Carousel Controls */}
-                  <a className="carousel-control-prev" href="#" role="button" data-slide="prev">
+                  <Link className="carousel-control-prev" to="#" role="button" data-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="sr-only">Previous</span>
-                  </a>
-                  <a className="carousel-control-next" href="#" role="button" data-slide="next">
+                  </Link>
+                  <Link className="carousel-control-next" to="#" role="button" data-slide="next">
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="sr-only">Next</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-8">
-              <h5>{contacts[0].text1 || contacts[0].text2 || contacts[0].text3}</h5>
+              <h5 className="bp mt-1"><strong>{contacts[0].text1 || contacts[0].text2 || contacts[0].text3}</strong></h5>
               <p>Address Placeholder</p>
               <p style={{ color: "grey" }}>Hotel</p>
               {/* Stars Placeholder */}
