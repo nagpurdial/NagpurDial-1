@@ -1,7 +1,7 @@
 import React from "react";
 import "../weddingstyle.css";
 import PopularSearch from "./PopularSearch";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 function Wedding() {
   return (
     <div className="container">

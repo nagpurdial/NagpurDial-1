@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Businesschat from "../Businesschat/Businesschatmodel"; 
+import Businesschat from "../Businesschat/Businesschatmodel";
 import Otp2 from "../Otp2";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 const whatsappContacts = [
   { id: 1, phone: "918390801030", text1: "T3 Tourism" },
 ];
