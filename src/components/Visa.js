@@ -6,7 +6,7 @@ const whatsappContacts = [
   { id: 1, phone: "918390801030", text1: "T3 Tourism" },
 ];
 const whatsappContacts1 = [
-  { id: 2, phone: "9188060 85849", text2: "GHUMANEWALA TRAVELl" },
+  { id: 2, phone: "918806085849", text2: "GHUMANEWALA TRAVELl" },
 ];
 const whatsappContacts2 = [
   { id: 3, phone: "919373657272", text3: "DHANLAXMI TOURS AND TRAVELS" },
@@ -43,33 +43,33 @@ function Visa() {
               </Link>
             </li>
             <li className="nav-item ">
-              <Link className="nav-link" to="hotel.html">
+              <Link className="nav-link" to="/hotel">
                 <b>Hotel</b>
               </Link>
             </li>
             <li className="nav-item ">
-              <Link className="nav-link" to="Bus.html">
+              <Link className="nav-link" to="/Bus">
                 <b>Bus</b>
               </Link>
             </li>
             <li className="nav-item ">
-              <Link className="nav-link" to="Train.html">
+              <Link className="nav-link" to="/Train">
                 <b>Train</b>
               </Link>
             </li>
             <li className="nav-item ">
-              <Link className="nav-link" to="Cab.html">
+              <Link className="nav-link" to="/Cab">
                 <b>Cab</b>
               </Link>
             </li>
             <li className="nav-item active">
-              <Link className="nav-link" to="Visa.html">
+              <Link className="nav-link" to="/Visa">
                 <b>Visa Assistance</b>
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="Internationalsim.html">
+              <Link className="nav-link" to="/Internationalsim">
                 <b>International Sim Card</b>
               </Link>
             </li>

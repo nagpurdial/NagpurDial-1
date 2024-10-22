@@ -242,10 +242,10 @@ function Wedding() {
               <br />
               <br />
               <br />
+              {/* <br />
               <br />
               <br />
-              <br />
-              <br />
+              <br /> */}
               <h1 style={{ fontFamily: "Forte" }}>
                 <strong>Pre-wedding Planning</strong>
               </h1>
@@ -346,17 +346,17 @@ function Wedding() {
       {/* <h5>
         <strong>For your Big day</strong>
       </h5> */}
-      <div class="container hide1">
+      <div class="container">
         <div class="row">
           <div class="col-lg-4">
             {/* <img scr="./images/wedding/w3.png" alt="foryourday" /> */}
             <br />
             <br />
+            {/* <br />
             <br />
             <br />
             <br />
-            <br />
-            <br />
+            <br /> */}
             <h1 style={{ fontFamily: "Forte" }}>
               <strong>For your Big day</strong>
             </h1>
@@ -448,124 +448,13 @@ function Wedding() {
                 </center>
               </div>
             </div>
-            <div class="row">
-              <div class="col-lg-3 hide">
-                <Link to="dj" class="a">
-                  <img src="./images/wedding/dj.png" class="w3" alt="dj" />
-                </Link>
-                <center>
-                  <Link to="dj" class="a">
-                    DJ Services
-                  </Link>
-                </center>
-              </div>
-              <div class="col-lg-3 hide">
-                <Link to="eventorganizer." class="a">
-                  <img src="./images/wedding/dj5.png" class="w3" alt="dj5" />
-                </Link>
-                <center>
-                  <Link to="/eventorganizer" class="a">
-                    Party Organisers
-                  </Link>
-                </center>
-              </div>
-            </div>
           </div>
         </div>
       </div>
       <hr />
-      {/* <!--for mobile view--> */}
-      <div class="container hide">
-        <div class="row">
-          <div class="col-lg-2">
-            <Link to="/stagedecover" class="a">
-              {" "}
-              <img src="./images/wedding/w3.png" class="w3" alt="w3" />
-            </Link>
-            <center>
-              <Link to="/stagedecover" class="a">
-                Decoration
-              </Link>
-            </center>
-          </div>
-          <div class="col-lg-2">
-            <Link to="/caterings" class="a">
-              {" "}
-              <img src="./images/wedding/w2.png" class="w3" alt="w2" />
-            </Link>
-            <center>
-              <Link to="/caterings" class="a">
-                Cateres
-              </Link>
-            </center>
-          </div>
-          <div class="col-lg-2">
-            <Link to="/jewellary" class="a">
-              <img src="./images/wedding/p5.png" class="w3" alt="p5" />
-            </Link>
-            <center>
-              <Link to="/jewellary" class="a">
-                Jewellary Shops
-              </Link>
-            </center>
-          </div>
-          <div class="col-lg-2">
-            <Link to="/dj" class="a">
-              <img src="./images/wedding/dj.png" class="w3" alt="dj" />
-            </Link>
-            <center>
-              <Link to="/dj" class="a">
-                DJ Services
-              </Link>
-            </center>
-          </div>
-          <div class="col-lg-2">
-            <Link to="/bands" class="a">
-              <img src="./images/wedding/dj2.png" class="w3" alt="dj2" />
-            </Link>
-            <center>
-              <Link to="/bands" class="a">
-                Wedding Band
-              </Link>
-            </center>
-          </div>
-          <div class="col-lg-2">
-            <Link to="/beauty" class="a">
-              <img src="./images/wedding/dj3.png" class="w3" alt="dj3" />
-            </Link>
-            <center>
-              <Link to="/beauty" class="a">
-                Bridal Make-Up{" "}
-              </Link>
-            </center>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-2">
-            <Link to="/choregraphy" class="a">
-              <img src="./images/wedding/dj4.png" class="w3" alt="dj4" />
-            </Link>
-            <center>
-              <Link to="/choregraphy" class="a">
-                Choreographer
-              </Link>
-            </center>
-          </div>
-          <div class="col-lg-2">
-            <Link to="/eventorganizer" class="a">
-              <img src="./images/wedding/dj5.png" class="w3" alt="dj5" />
-            </Link>
-            <center>
-              <Link to="/eventorganizer" class="a">
-                Party Organisers
-              </Link>
-            </center>
-          </div>
-        </div>
-      </div>
       <PopularSearch />
       <hr />
-      <div style={{ padding: "5px" }}></div>
+      <div style={{ padding: "2px" }}></div>
     </div>
   );
 }
