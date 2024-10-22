@@ -48,7 +48,7 @@ function Restaurant() {
 
   return (
     <div className="container">
-      <div className="banner">
+      <div className="banner36">
         {/* Optional banner content */}
       </div>
       <div className="restaurant-list">
