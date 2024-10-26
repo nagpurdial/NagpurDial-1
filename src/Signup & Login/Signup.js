@@ -10,7 +10,7 @@ const Signup1 = (props) => {
     number: props.data || "", // Initialize with props.data if available
   });
   const navigate = useNavigate();
-  const host = "http://localhost:3000";
+  const host = "http://localhost:30000";
 
   // Update number in state when props.data changes
   useEffect(() => {

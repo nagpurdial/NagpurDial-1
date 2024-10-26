@@ -28,7 +28,7 @@ const ImageForm = (props) => {
 
     setFiles(newFiles);
 
-    const selectedFilesPreview = newFiles.map(file =>
+    const selectedFilesPreview = newFiles.map((file) =>
       URL.createObjectURL(file)
     );
     setPreviewUrls(selectedFilesPreview);
@@ -89,7 +89,7 @@ const ImageForm = (props) => {
     formData.append("pincode", pincode);
 
     try {
-      await axios.post("http://localhost:3000/freelisting ", formData, {
+      await axios.post("http://localhost:30000/freelisting ", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
@@ -249,7 +249,11 @@ const ImageForm = (props) => {
                   key={index}
                   src={url}
                   alt={`Preview ${index + 1}`}
-                  style={{ maxWidth: "200px", maxHeight: "150px", marginRight: "10px" }}
+                  style={{
+                    maxWidth: "200px",
+                    maxHeight: "150px",
+                    marginRight: "10px",
+                  }}
                   className="preview-image"
                 />
               ))}

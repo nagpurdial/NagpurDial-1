@@ -127,7 +127,7 @@ import JumbotronRow from "./Admin/JumbotronRow";
 import Image from "./Admin/Image";
 import LogoutButton from "./Admin/Logout";
 
-// import AlertComponent from "./Advertise/AlertComponent"; 
+// import AlertComponent from "./Advertise/AlertComponent";
 // Import the component for image advertisements
 
 function App() {
@@ -289,16 +289,12 @@ function App() {
             <Route exact path="/adminuse" element={<JumbotronRow />} />
             <Route exact path="/image" element={<Image />} />
             <Route exact path="/logout" element={<LogoutButton />} />
-         
 
-            
             <Route
               exact
               path="/businesschatmodel"
               element={<Businesschatmodel />}
-            
             />
-
           </Routes>
           {/* <AlertComponent />  */}
           {/* this component is only for advertising */}

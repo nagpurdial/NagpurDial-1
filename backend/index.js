@@ -30,9 +30,14 @@ app.use(bodyParser.json());
 
 // MongoDB connection
 //"mongodb+srv://psktanushri22dhote:Tanushri@22@nagpurdial.jmqri.mongodb.",
-mongoose.connect("mongodb://localhost:27017/NagpurDial1", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+// mongoose.connect("mongodb://localhost:27017/NagpurDial1", {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
+
+mongoose.connect("mongodb://nagpurdial_nagpurdialpsk:2HUqJfIWlZ@157.173.119.93:27017/nagpurdial_NagpurDial1?authSource=admin", {
+  // useNewUrlParser: true,
+  // useUnifiedTopology: true,
 });
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "MongoDB connection error:"));
@@ -177,7 +182,7 @@ app.use((err, req, res, next) => {
   res.status(500).send("Something broke!");
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 30000;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
